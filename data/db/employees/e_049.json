@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_vo_sales"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00538",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Πωλήσεων",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "georgios.maragkoydakis@ambience.gr",
+  "first": "ΓΕΩΡΓΙΟΣ",
+  "hireDate": "2019-10-01",
+  "last": "ΜΑΡΑΓΚΟΥΔΑΚΗΣ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6946308897",
+  "position": "Εκπρόσωπος Πωλήσεων",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΛΑΒΔΑΣ / ΠΑΥΛΑΚΗΣ / ΠΕΤΡΟΠΟΥΛΟΥ"
+}

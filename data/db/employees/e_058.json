@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_zm_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00625",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "panagiota.mpampoy@ambience.gr",
+  "first": "ΠΑΝΑΓΙΩΤΑ",
+  "hireDate": "2021-03-01",
+  "last": "ΜΠΑΜΠΟΥ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6950835013",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ"
+}

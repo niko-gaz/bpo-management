@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 6,
+      "projectId": "p_dx_col"
+    },
+    {
+      "hours": 2,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00582",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Είσπραξης Οφειλών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "valia.vogiatzi@ambience.gr",
+  "first": "ΒΑΛΙΑ",
+  "hireDate": "2022-08-31",
+  "last": "ΒΟΓΙΑΤΖΗ",
+  "leaveDate": "",
+  "location": "Ταύρος, 177 78",
+  "phone": "6956647663",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ"
+}

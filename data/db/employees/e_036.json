@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 6,
+      "projectId": "p_ete_bo"
+    },
+    {
+      "hours": 2,
+      "projectId": "p_wv_cs"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00683",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "sotirios.fasoylas@ambience.gr",
+  "first": "ΣΩΤΗΡΙΟΣ",
+  "hireDate": "2022-08-31",
+  "last": "ΦΑΣΟΥΛΑΣ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6926323822",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

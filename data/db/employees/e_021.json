@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_ab_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "399",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "galateia.sitaridi@ambience.gr",
+  "first": "ΓΑΛΑΤΕΙΑ",
+  "hireDate": "2021-03-01",
+  "last": "ΣΙΤΑΡΙΔΗ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6973382988",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

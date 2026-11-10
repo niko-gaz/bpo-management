@@ -1,0 +1,42 @@
+{
+  "assignments": [
+    {
+      "days": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "hours": 8,
+      "mode": "fixed",
+      "projectId": "p_ab_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "474",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "eyaggelia.porfyri@ambience.gr",
+  "first": "ΕΥΑΓΓΕΛΙΑ",
+  "hireDate": "2021-03-01",
+  "last": "ΠΟΡΦΥΡΗ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6932817504",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    true,
+    true,
+    false,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

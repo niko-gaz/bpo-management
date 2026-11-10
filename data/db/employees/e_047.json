@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 4,
+      "projectId": "p_pk_cc"
+    },
+    {
+      "hours": 4,
+      "projectId": "p_fa_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00576",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "nikolaos.tsaltas@ambience.gr",
+  "first": "ΝΙΚΟΛΑΟΣ",
+  "hireDate": "2022-08-31",
+  "last": "ΤΣΑΛΤΑΣ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6980721337",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ"
+}

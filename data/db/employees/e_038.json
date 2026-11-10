@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_nexi_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00687",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "spyridoyla.kaltsa@ambience.gr",
+  "first": "ΣΠΥΡΙΔΟΥΛΑ",
+  "hireDate": "2022-08-31",
+  "last": "ΚΑΛΤΣΑ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6928422000",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ"
+}

@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_alpha_bo"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00639",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "vasileios.niklan@ambience.gr",
+  "first": "ΒΑΣΙΛΕΙΟΣ",
+  "hireDate": "2019-10-01",
+  "last": "ΝΙΚΛΑΝ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6977330181",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

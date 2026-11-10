@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "219",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "georgios.altogloy@ambience.gr",
+  "first": "ΓΕΩΡΓΙΟΣ",
+  "hireDate": "2023-01-16",
+  "last": "ΑΛΤΟΓΛΟΥ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6987832216",
+  "position": "Προϊστάμενος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

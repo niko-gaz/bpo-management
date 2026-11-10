@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_col"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00581",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Είσπραξης Οφειλών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "sofia.goyli@ambience.gr",
+  "first": "ΣΟΦΙΑ",
+  "hireDate": "2024-05-06",
+  "last": "ΓΟΥΛΗ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6978006237",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ"
+}

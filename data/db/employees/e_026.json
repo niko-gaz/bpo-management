@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_ab_cs"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00524",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "vasiliki.dioti@ambience.gr",
+  "first": "ΒΑΣΙΛΙΚΗ",
+  "hireDate": "2019-10-01",
+  "last": "ΔΙΩΤΗ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6998217056",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    true,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ"
+}

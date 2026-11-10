@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_fa_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00644",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "ilias.loykas@ambience.gr",
+  "first": "ΗΛΙΑΣ",
+  "hireDate": "2022-08-31",
+  "last": "ΛΟΥΚΑΣ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6916071673",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ"
+}

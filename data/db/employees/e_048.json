@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_vo_sales"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00536",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Πωλήσεων",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "dionysia.dimitropoyloy@ambience.gr",
+  "first": "ΔΙΟΝΥΣΙΑ",
+  "hireDate": "2022-08-31",
+  "last": "ΔΗΜΗΤΡΟΠΟΥΛΟΥ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6951874911",
+  "position": "Εκπρόσωπος Πωλήσεων",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΛΑΒΔΑΣ / ΠΑΥΛΑΚΗΣ / ΠΕΤΡΟΠΟΥΛΟΥ"
+}

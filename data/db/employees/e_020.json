@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 4,
+      "projectId": "p_dx_ts"
+    },
+    {
+      "hours": 4,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "311",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "michalis.panagiotakis@ambience.gr",
+  "first": "ΜΙΧΑΛΗΣ",
+  "hireDate": "2022-08-31",
+  "last": "ΠΑΝΑΓΙΩΤΑΚΗΣ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6942130069",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ"
+}

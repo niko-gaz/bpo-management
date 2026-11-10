@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_vo_sales"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00550",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Πωλήσεων",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "efraimia.soyta@ambience.gr",
+  "first": "ΕΦΡΑΙΜΙΑ",
+  "hireDate": "2021-03-01",
+  "last": "ΣΟΥΤΑ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6979019441",
+  "position": "Εκπρόσωπος Πωλήσεων",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΛΑΒΔΑΣ / ΠΑΥΛΑΚΗΣ / ΠΕΤΡΟΠΟΥΛΟΥ"
+}

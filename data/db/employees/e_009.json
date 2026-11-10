@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00545",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "ioannis.aygoystis@ambience.gr",
+  "first": "ΙΩΑΝΝΗΣ",
+  "hireDate": "2022-08-31",
+  "last": "ΑΥΓΟΥΣΤΗΣ",
+  "leaveDate": "2026-10-16",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6921138017",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

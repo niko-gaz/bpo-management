@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_wv_cs"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00618",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "ioannis.manoyskos@ambience.gr",
+  "first": "ΙΩΑΝΝΗΣ",
+  "hireDate": "2023-01-16",
+  "last": "ΜΑΝΟΥΣΚΟΣ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6966673996",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    true,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ"
+}

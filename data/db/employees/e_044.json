@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_wv_cs"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "345",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "dimitra.stayropoyloy@ambience.gr",
+  "first": "ΔΗΜΗΤΡΑ",
+  "hireDate": "2023-01-16",
+  "last": "ΣΤΑΥΡΟΠΟΥΛΟΥ",
+  "leaveDate": "",
+  "location": "Ταύρος, 177 78",
+  "phone": "6947455108",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    true,
+    true,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ"
+}

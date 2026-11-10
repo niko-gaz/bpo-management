@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_ts"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00692",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "eyaggelia.iatroy@ambience.gr",
+  "first": "ΕΥΑΓΓΕΛΙΑ",
+  "hireDate": "2019-10-01",
+  "last": "ΙΑΤΡΟΥ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6980881649",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ"
+}

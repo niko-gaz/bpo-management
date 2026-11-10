@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_ts"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00519",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "markella.kyriakoylakoy@ambience.gr",
+  "first": "ΜΑΡΚΕΛΛΑ",
+  "hireDate": "2023-01-16",
+  "last": "ΚΥΡΙΑΚΟΥΛΑΚΟΥ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6957740731",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ"
+}

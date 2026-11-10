@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_col"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00633",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Είσπραξης Οφειλών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "danai.grintzoy@ambience.gr",
+  "first": "ΔΑΝΑΗ",
+  "hireDate": "2021-03-01",
+  "last": "ΓΡΙΝΤΖΟΥ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6999285347",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ"
+}

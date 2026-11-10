@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_pk_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00456",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "panagiotis.gkinis@ambience.gr",
+  "first": "ΠΑΝΑΓΙΩΤΗΣ",
+  "hireDate": "2021-03-01",
+  "last": "ΓΚΙΝΗΣ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6911549722",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ"
+}

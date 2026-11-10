@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_ete_bo"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00665",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "magdalini.gkini@ambience.gr",
+  "first": "ΜΑΓΔΑΛΗΝΗ",
+  "hireDate": "2019-10-01",
+  "last": "ΓΚΙΝΗ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6980224010",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

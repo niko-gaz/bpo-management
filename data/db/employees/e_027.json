@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_ab_cs"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00610",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "vasileios.stamatoykos@ambience.gr",
+  "first": "ΒΑΣΙΛΕΙΟΣ",
+  "hireDate": "2021-03-01",
+  "last": "ΣΤΑΜΑΤΟΥΚΟΣ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6980676511",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ"
+}

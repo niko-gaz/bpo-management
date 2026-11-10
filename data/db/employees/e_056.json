@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_fa_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00662",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "georgia.kotsona@ambience.gr",
+  "first": "ΓΕΩΡΓΙΑ",
+  "hireDate": "2022-08-31",
+  "last": "ΚΟΤΣΩΝΑ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6955007604",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ"
+}

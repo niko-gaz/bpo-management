@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00513",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "styliani.keranopoyloy@ambience.gr",
+  "first": "ΣΤΥΛΙΑΝΗ",
+  "hireDate": "2019-10-01",
+  "last": "ΚΕΡΑΝΟΠΟΥΛΟΥ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6929938108",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 6,
+      "projectId": "p_dx_cs"
+    },
+    {
+      "hours": 2,
+      "projectId": "p_dx_ex"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "411",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "georgios.alevizos@ambience.gr",
+  "first": "ΓΕΩΡΓΙΟΣ",
+  "hireDate": "2024-05-06",
+  "last": "ΑΛΕΒΙΖΟΣ",
+  "leaveDate": "",
+  "location": "Ταύρος, 177 78",
+  "phone": "6999686414",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

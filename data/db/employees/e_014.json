@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00510",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "antonios.petroytsos@ambience.gr",
+  "first": "ΑΝΤΩΝΙΟΣ",
+  "hireDate": "2021-03-01",
+  "last": "ΠΕΤΡΟΥΤΣΟΣ",
+  "leaveDate": "",
+  "location": "Ταύρος, 177 78",
+  "phone": "6982023741",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    true,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

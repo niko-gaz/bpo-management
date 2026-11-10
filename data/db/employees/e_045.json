@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_pk_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00651",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "nikoleta.monioy@ambience.gr",
+  "first": "ΝΙΚΟΛΕΤΑ",
+  "hireDate": "2021-03-01",
+  "last": "ΜΟΝΙΟΥ",
+  "leaveDate": "",
+  "location": "Ταύρος, 177 78",
+  "phone": "6944970682",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ"
+}

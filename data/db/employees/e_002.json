@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 6,
+      "projectId": "p_dx_cs"
+    },
+    {
+      "hours": 2,
+      "projectId": "p_ab_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00663",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "zafeiria.alateroy@ambience.gr",
+  "first": "ΖΑΦΕΙΡΙΑ",
+  "hireDate": "2021-03-01",
+  "last": "ΑΛΑΤΕΡΟΥ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6978710461",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

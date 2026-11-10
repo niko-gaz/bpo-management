@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_zm_bo"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00418",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "thomas.prokopioy@ambience.gr",
+  "first": "ΘΩΜΑΣ",
+  "hireDate": "2022-08-31",
+  "last": "ΠΡΟΚΟΠΙΟΥ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6922193908",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ"
+}

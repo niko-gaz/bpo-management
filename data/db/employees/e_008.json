@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "442",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "iliana.argyriadi@ambience.gr",
+  "first": "ΗΛΙΑΝΑ",
+  "hireDate": "2023-01-16",
+  "last": "ΑΡΓΥΡΙΑΔΗ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6967783637",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

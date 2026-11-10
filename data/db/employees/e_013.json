@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00512",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "vasiliki.sikola@ambience.gr",
+  "first": "ΒΑΣΙΛΙΚΗ",
+  "hireDate": "2022-08-31",
+  "last": "ΣΙΚΟΛΑ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6938019720",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

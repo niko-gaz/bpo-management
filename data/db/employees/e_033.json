@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_alpha_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00680",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "georgios.stamiris@ambience.gr",
+  "first": "ΓΕΩΡΓΙΟΣ",
+  "hireDate": "2022-08-31",
+  "last": "ΣΤΑΜΙΡΗΣ",
+  "leaveDate": "",
+  "location": "Ταύρος, 177 78",
+  "phone": "6915663839",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

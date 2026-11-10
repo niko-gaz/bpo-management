@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_ete_bo"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00685",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "alexandros.chronopoylos@ambience.gr",
+  "first": "ΑΛΕΞΑΝΔΡΟΣ",
+  "hireDate": "2024-05-06",
+  "last": "ΧΡΟΝΟΠΟΥΛΟΣ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6938546741",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "09-17",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

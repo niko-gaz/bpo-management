@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 5,
+      "projectId": "p_dx_bo"
+    },
+    {
+      "hours": 3,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00514",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "maria.tamvakidoy@ambience.gr",
+  "first": "ΜΑΡΙΑ",
+  "hireDate": "2024-05-06",
+  "last": "ΤΑΜΒΑΚΙΔΟΥ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6963550032",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

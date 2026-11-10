@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00511",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "emmanoyela.cheilaki@ambience.gr",
+  "first": "ΕΜΜΑΝΟΥΕΛΑ",
+  "hireDate": "2019-10-01",
+  "last": "ΧΕΙΛΑΚΗ",
+  "leaveDate": "",
+  "location": "Ταύρος, 177 78",
+  "phone": "6926843185",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "13-21",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

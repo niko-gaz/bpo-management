@@ -1,0 +1,42 @@
+{
+  "assignments": [
+    {
+      "days": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "hours": 8,
+      "mode": "fixed",
+      "projectId": "p_ab_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "313",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "ioannis.papaioannoy@ambience.gr",
+  "first": "ΙΩΑΝΝΗΣ",
+  "hireDate": "2023-01-16",
+  "last": "ΠΑΠΑΙΩΑΝΝΟΥ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6920809644",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

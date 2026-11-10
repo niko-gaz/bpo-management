@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "hours": 4,
+      "projectId": "p_alpha_bo"
+    },
+    {
+      "hours": 4,
+      "projectId": "p_nexi_bo"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00669",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Υποστηρικτικών Εργασιών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "konstantina.pappa@ambience.gr",
+  "first": "ΚΩΝΣΤΑΝΤΙΝΑ",
+  "hireDate": "2022-08-31",
+  "last": "ΠΑΠΠΑ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6930106149",
+  "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+  "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "10-18",
+  "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ"
+}

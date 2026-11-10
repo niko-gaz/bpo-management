@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00495",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "andrianna.antonioy@ambience.gr",
+  "first": "ΑΝΔΡΙΑΝΝΑ",
+  "hireDate": "2022-08-31",
+  "last": "ΑΝΤΩΝΙΟΥ",
+  "leaveDate": "",
+  "location": "Μαρούσι, 151 25",
+  "phone": "6963404922",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

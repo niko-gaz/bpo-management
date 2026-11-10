@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_wv_cs"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00690",
+  "contractHours": "8",
+  "contractTerm": "Αορίστου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "dimitrios.mpakas@ambience.gr",
+  "first": "ΔΗΜΗΤΡΙΟΣ",
+  "hireDate": "2019-10-01",
+  "last": "ΜΠΑΚΑΣ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6925146464",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ"
+}

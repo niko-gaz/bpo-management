@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_dx_cs"
+    }
+  ],
+  "branch": "Μαρούσι",
+  "code": "POW00612",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "georgia.antonakopoyloy@ambience.gr",
+  "first": "ΓΕΩΡΓΙΑ",
+  "hireDate": "2021-03-01",
+  "last": "ΑΝΤΩΝΑΚΟΠΟΥΛΟΥ",
+  "leaveDate": "",
+  "location": "Καλλιθέα, 176 71",
+  "phone": "6957709585",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ"
+}

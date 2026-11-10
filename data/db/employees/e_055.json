@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "hours": 8,
+      "projectId": "p_fa_cc"
+    }
+  ],
+  "branch": "Ταύρος",
+  "code": "POW00643",
+  "contractHours": "8",
+  "contractTerm": "Ορισμένου χρόνου",
+  "department": "Τμήμα Εξυπηρέτησης Πελατών",
+  "direction": "Διεύθυνση Υπηρεσιών",
+  "email": "maria.fotiadoy@ambience.gr",
+  "first": "ΜΑΡΙΑ",
+  "hireDate": "2023-01-16",
+  "last": "ΦΩΤΙΑΔΟΥ",
+  "leaveDate": "",
+  "location": "Νέα Σμύρνη, 171 21",
+  "phone": "6983426945",
+  "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+  "remote": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    false
+  ],
+  "schedule": "08-16",
+  "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ"
+}
