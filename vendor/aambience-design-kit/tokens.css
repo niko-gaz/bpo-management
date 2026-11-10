@@ -1,0 +1,916 @@
+/* Aambience Design Kit — generated from tokens.json */
+:root, [data-theme="light"] {
+  --color-base-black: #000000; /* Primitive — pure black. Raw palette value; in UI use a Semantic token (e.g. color-text-default, color-surface-primary-container).. */
+  --color-base-white: #ffffff; /* Primitive — pure white. Raw palette value; in UI use a Semantic token (e.g. color-text-default, color-surface-primary-container). */
+  --color-green-900: #08351a; /* Primitive — green 900. Raw palette value; in UI use a Semantic token. */
+  --color-green-800: #116a34; /* Primitive — green 800. Raw palette value; in UI use a Semantic token. */
+  --color-green-700: #199e4d; /* Primitive — green 700. Raw palette value; in UI use a Semantic token. */
+  --color-green-600: #21d367; /* Primitive — green 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-green-500: #4ddc85; /* Primitive — green 500. Raw palette value; in UI use a Semantic token. */
+  --color-green-400: #7ae5a4; /* Primitive — green 400. Raw palette value; in UI use a Semantic token. */
+  --color-green-300: #a6edc2; /* Primitive — green 300. Raw palette value; in UI use a Semantic token. */
+  --color-green-200: #d3f6e1; /* Primitive — green 200. Raw palette value; in UI use a Semantic token. */
+  --color-green-100: #e5faed; /* Primitive — green 100. Raw palette value; in UI use a Semantic token. */
+  --color-green-50: #f2fff7; /* Primitive — green 50. Raw palette value; in UI use a Semantic token. */
+  --color-gray-900: #0e1012; /* Primitive — gray 900. Raw palette value; in UI use a Semantic token. */
+  --color-gray-800: #1d2024; /* Primitive — gray 800. Raw palette value; in UI use a Semantic token. */
+  --color-gray-700: #2c2f35; /* Primitive — gray 700. Raw palette value; in UI use a Semantic token. */
+  --color-gray-600: #3a3f47; /* Primitive — gray 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-gray-500: #61656c; /* Primitive — gray 500. Raw palette value; in UI use a Semantic token. */
+  --color-gray-400: #898c91; /* Primitive — gray 400. Raw palette value; in UI use a Semantic token. */
+  --color-gray-300: #b0b2b5; /* Primitive — gray 300. Raw palette value; in UI use a Semantic token. */
+  --color-gray-200: #d8d9da; /* Primitive — gray 200. Raw palette value; in UI use a Semantic token. */
+  --color-gray-100: #e8e8e9; /* Primitive — gray 100. Raw palette value; in UI use a Semantic token. */
+  --color-gray-50: #f1f1f2; /* Primitive — gray 50. Raw palette value; in UI use a Semantic token. */
+  --color-teal-900: #0f3840; /* Primitive — teal 900. Raw palette value; in UI use a Semantic token. */
+  --color-teal-800: #164f5a; /* Primitive — teal 800. Raw palette value; in UI use a Semantic token. */
+  --color-teal-700: #207786; /* Primitive — teal 700. Raw palette value; in UI use a Semantic token. */
+  --color-teal-600: #2b9eb3; /* Primitive — teal 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-teal-500: #55b1c2; /* Primitive — teal 500. Raw palette value; in UI use a Semantic token. */
+  --color-teal-400: #80c5d1; /* Primitive — teal 400. Raw palette value; in UI use a Semantic token. */
+  --color-teal-300: #aad8e1; /* Primitive — teal 300. Raw palette value; in UI use a Semantic token. */
+  --color-teal-200: #d5ecf0; /* Primitive — teal 200. Raw palette value; in UI use a Semantic token. */
+  --color-teal-100: #e6f3f6; /* Primitive — teal 100. Raw palette value; in UI use a Semantic token. */
+  --color-teal-50: #f7fbfc; /* Primitive — teal 50. Raw palette value; in UI use a Semantic token. */
+  --color-purple-900: #281b29; /* Primitive — purple 900. Raw palette value; in UI use a Semantic token. */
+  --color-purple-800: #4f3552; /* Primitive — purple 800. Raw palette value; in UI use a Semantic token. */
+  --color-purple-700: #764f7a; /* Primitive — purple 700. Raw palette value; in UI use a Semantic token. */
+  --color-purple-600: #9d69a3; /* Primitive — purple 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-purple-500: #b187b5; /* Primitive — purple 500. Raw palette value; in UI use a Semantic token. */
+  --color-purple-400: #c4a5c8; /* Primitive — purple 400. Raw palette value; in UI use a Semantic token. */
+  --color-purple-300: #d8c3da; /* Primitive — purple 300. Raw palette value; in UI use a Semantic token. */
+  --color-purple-200: #ebe1ed; /* Primitive — purple 200. Raw palette value; in UI use a Semantic token. */
+  --color-purple-100: #f3edf4; /* Primitive — purple 100. Raw palette value; in UI use a Semantic token. */
+  --color-purple-50: #fbf9fb; /* Primitive — purple 50. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-900: #1b2036; /* Primitive — indigo 900. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-800: #36406c; /* Primitive — indigo 800. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-700: #505fa1; /* Primitive — indigo 700. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-600: #6b7fd7; /* Primitive — indigo 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-indigo-500: #8999df; /* Primitive — indigo 500. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-400: #a6b2e7; /* Primitive — indigo 400. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-300: #c4ccef; /* Primitive — indigo 300. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-200: #e1e5f7; /* Primitive — indigo 200. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-100: #edf0fa; /* Primitive — indigo 100. Raw palette value; in UI use a Semantic token. */
+  --color-indigo-50: #f9fafd; /* Primitive — indigo 50. Raw palette value; in UI use a Semantic token. */
+  --color-orange-900: #3d221a; /* Primitive — orange 900. Raw palette value; in UI use a Semantic token. */
+  --color-orange-800: #7a4334; /* Primitive — orange 800. Raw palette value; in UI use a Semantic token. */
+  --color-orange-700: #b7654e; /* Primitive — orange 700. Raw palette value; in UI use a Semantic token. */
+  --color-orange-600: #f48668; /* Primitive — orange 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-orange-500: #f69e86; /* Primitive — orange 500. Raw palette value; in UI use a Semantic token. */
+  --color-orange-400: #f8b6a4; /* Primitive — orange 400. Raw palette value; in UI use a Semantic token. */
+  --color-orange-300: #fbcfc3; /* Primitive — orange 300. Raw palette value; in UI use a Semantic token. */
+  --color-orange-200: #fde7e1; /* Primitive — orange 200. Raw palette value; in UI use a Semantic token. */
+  --color-orange-100: #fef0ed; /* Primitive — orange 100. Raw palette value; in UI use a Semantic token. */
+  --color-orange-50: #fffaf9; /* Primitive — orange 50. Raw palette value; in UI use a Semantic token. */
+  --color-gold-900: #382f1c; /* Primitive — gold 900. Raw palette value; in UI use a Semantic token. */
+  --color-gold-800: #6f5d38; /* Primitive — gold 800. Raw palette value; in UI use a Semantic token. */
+  --color-gold-700: #a78c53; /* Primitive — gold 700. Raw palette value; in UI use a Semantic token. */
+  --color-gold-600: #deba6f; /* Primitive — gold 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-gold-500: #e5c88c; /* Primitive — gold 500. Raw palette value; in UI use a Semantic token. */
+  --color-gold-400: #ebd6a9; /* Primitive — gold 400. Raw palette value; in UI use a Semantic token. */
+  --color-gold-300: #f2e3c5; /* Primitive — gold 300. Raw palette value; in UI use a Semantic token. */
+  --color-gold-200: #f8f1e2; /* Primitive — gold 200. Raw palette value; in UI use a Semantic token. */
+  --color-gold-100: #fbf7ee; /* Primitive — gold 100. Raw palette value; in UI use a Semantic token. */
+  --color-gold-50: #fefcf9; /* Primitive — gold 50. Raw palette value; in UI use a Semantic token. */
+  --color-red-900: #420a07; /* Primitive — red 900. Raw palette value; in UI use a Semantic token. */
+  --color-red-800: #5c0e0a; /* Primitive — red 800. Raw palette value; in UI use a Semantic token. */
+  --color-red-700: #75120d; /* Primitive — red 700. Raw palette value; in UI use a Semantic token. */
+  --color-red-600: #a81a12; /* Primitive — red 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-red-500: #e64f46; /* Primitive — red 500. Raw palette value; in UI use a Semantic token. */
+  --color-red-400: #ec7b74; /* Primitive — red 400. Raw palette value; in UI use a Semantic token. */
+  --color-red-300: #f3a7a3; /* Primitive — red 300. Raw palette value; in UI use a Semantic token. */
+  --color-red-200: #f9d3d1; /* Primitive — red 200. Raw palette value; in UI use a Semantic token. */
+  --color-red-100: #fbe5e3; /* Primitive — red 100. Raw palette value; in UI use a Semantic token. */
+  --color-red-50: #fff3f2; /* Primitive — red 50. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-900: #383006; /* Primitive — yellow 900. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-800: #705f0c; /* Primitive — yellow 800. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-700: #a88f12; /* Primitive — yellow 700. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-600: #e0be18; /* Primitive — yellow 600 (base of the ramp). Raw palette value; in UI use a Semantic token. */
+  --color-yellow-500: #e6cb46; /* Primitive — yellow 500. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-400: #ecd874; /* Primitive — yellow 400. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-300: #f3e5a3; /* Primitive — yellow 300. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-200: #f9f2d1; /* Primitive — yellow 200. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-100: #fbf7e3; /* Primitive — yellow 100. Raw palette value; in UI use a Semantic token. */
+  --color-yellow-50: #fffced; /* Primitive — yellow 50. Raw palette value; in UI use a Semantic token. */
+  --color-surface-primary: var(--color-gray-50); /* Semantic — Page background. */
+  --color-surface-primary-container: var(--color-base-white); /* Semantic — Cards, panels and inputs on the page background. */
+  --color-surface-secondary: var(--color-green-100); /* Semantic — Brand-tinted (green) surface. */
+  --color-surface-secondary-container: var(--color-gray-600); /* Semantic — Dark chrome: header, side navigation, snackbars, dark dialogs. Pair with color-text-on-dark / color-icon-on-dark. */
+  --color-surface-secondary-container-hover: var(--color-gray-700); /* Semantic — Hover fill of a control on the dark chrome (e.g. the header Menu button). */
+  --color-surface-accent: var(--color-green-200); /* Semantic — Green highlight surface (selected, success). */
+  --color-surface-accent-container: var(--color-green-400); /* Semantic — Stronger green highlight. */
+  --color-surface-tertiary: var(--color-teal-50); /* Semantic — Teal info surface. */
+  --color-surface-tertiary-container: var(--color-teal-200); /* Semantic — Teal info container. */
+  --color-surface-purple: var(--color-purple-50); /* Semantic — Category colour (purple) — surface for calendar entries, tags and categorising; not for actions. */
+  --color-surface-purple-container: var(--color-purple-100); /* Semantic — surface — purple-container. */
+  --color-surface-indigo: var(--color-indigo-50); /* Semantic — Category colour (indigo) — surface for calendar entries, tags and categorising; not for actions. */
+  --color-surface-indigo-container: var(--color-indigo-100); /* Semantic — surface — indigo-container. */
+  --color-surface-orange: var(--color-orange-50); /* Semantic — Category colour (orange) — surface for calendar entries, tags and categorising; not for actions. */
+  --color-surface-orange-container: var(--color-orange-100); /* Semantic — surface — orange-container. */
+  --color-surface-gold: var(--color-gold-50); /* Semantic — Category colour (gold) — surface for calendar entries, tags and categorising; not for actions. */
+  --color-surface-gold-container: var(--color-gold-100); /* Semantic — surface — gold-container. */
+  --color-surface-error: var(--color-red-100); /* Semantic — Error surface (alerts, invalid rows). */
+  --color-surface-error-container: var(--color-red-200); /* Semantic — Error container. */
+  --color-surface-warning: var(--color-yellow-50); /* Semantic — Warning surface. */
+  --color-surface-warning-container: var(--color-yellow-100); /* Semantic — Warning container. */
+  --color-surface-warning-strong: var(--color-yellow-600); /* Semantic — Strong status badge fill (e.g. "Expiring"). Black text on it. */
+  --color-surface-highlight: var(--color-gold-300); /* Semantic — Soft highlight pill, e.g. the calendar "+N ακόμα" counter. */
+  --color-surface-neutral-strong: var(--color-gray-500); /* Semantic — Neutral emphasis fill: active navigation item, selected calendar day. */
+  --color-surface-selected: var(--color-gray-200); /* Semantic — Fill of a selected (active) card or row, e.g. the active Company card. Default text and icons on it. */
+  --color-text-default: var(--color-base-black); /* Semantic — Main text. */
+  --color-text-subtle: var(--color-gray-600); /* Semantic — Secondary text. */
+  --color-text-muted: var(--color-gray-500); /* Semantic — Field labels (msft_FieldLabel), meta information. */
+  --color-text-placeholder: var(--color-gray-400); /* Semantic — Placeholder and helper text. */
+  --color-text-faint: var(--color-gray-300); /* Semantic — Very low emphasis, e.g. days outside the current month. */
+  --color-text-disabled: var(--color-gray-200); /* Semantic — Disabled text. */
+  --color-text-on-dark: var(--color-base-white); /* Semantic — Text on dark chrome (color-surface-secondary-container). */
+  --color-text-accent: var(--color-green-600); /* Semantic — Active navigation item text. */
+  --color-text-link-default: var(--color-teal-700); /* Semantic — Link text — default state. */
+  --color-text-link-hover: var(--color-teal-800); /* Semantic — Link text — hover state. */
+  --color-text-link-active: var(--color-teal-900); /* Semantic — Link text — active state. */
+  --color-text-link-visited: var(--color-teal-800); /* Semantic — Link text — visited state. */
+  --color-text-error-default: var(--color-red-600); /* Semantic — Error text — default state. */
+  --color-text-error-hover: var(--color-red-700); /* Semantic — Error text — hover state. */
+  --color-text-error-active: var(--color-red-800); /* Semantic — Error text — active state. */
+  --color-text-error-visited: var(--color-red-700); /* Semantic — Error text — visited state. */
+  --color-text-warning-default: var(--color-yellow-800); /* Semantic — Warning text — default state. */
+  --color-text-warning-hover: var(--color-yellow-900); /* Semantic — Warning text — hover state. */
+  --color-text-warning-active: var(--color-yellow-900); /* Semantic — Warning text — active state. */
+  --color-text-warning-visited: var(--color-yellow-900); /* Semantic — Warning text — visited state. */
+  --color-border-primary: var(--color-gray-200); /* Semantic — Input borders and dividers. */
+  --color-border-secondary: var(--color-gray-100); /* Semantic — Subtle dividers. */
+  --color-border-strong: var(--color-gray-300); /* Semantic — Outline buttons, dropdown dividers, the main stroke. */
+  --color-border-hover: var(--color-gray-400); /* Semantic — Border of a field or control on hover (dropdown, toggle). */
+  --color-border-on-dark: var(--color-base-white); /* Semantic — Outlines on dark chrome (e.g. the header Menu button). */
+  --color-border-accent: var(--color-green-600); /* Semantic — Selected / focus border. */
+  --color-border-focus: var(--color-green-700); /* Semantic — Focus ring (buttons, cards, table headers, calendar cells). 3:1 or more against the page in both themes: 3.2 on white, 7.6 on the Dark page. */
+  --color-border-tertiary: var(--color-teal-600); /* Semantic — Border — tertiary. */
+  --color-border-purple: var(--color-purple-600); /* Semantic — Category colour (purple) — border for calendar entries, tags and categorising; not for actions. */
+  --color-border-indigo: var(--color-indigo-700); /* Semantic — Category colour (indigo) — border for calendar entries, tags and categorising; not for actions. */
+  --color-border-orange: var(--color-orange-600); /* Semantic — Category colour (orange) — border for calendar entries, tags and categorising; not for actions. */
+  --color-border-gold: var(--color-gold-600); /* Semantic — Category colour (gold) — border for calendar entries, tags and categorising; not for actions. */
+  --color-border-error: var(--color-red-500); /* Semantic — Border — error. */
+  --color-border-warning: var(--color-yellow-500); /* Semantic — Border — warning. */
+  --color-icon-primary: var(--color-base-black); /* Semantic — Default icon colour. */
+  --color-icon-secondary: var(--color-gray-600); /* Semantic — Secondary icons (e.g. next to an avatar). */
+  --color-icon-placeholder: var(--color-gray-400); /* Semantic — Icons inside empty/disabled inputs. */
+  --color-icon-faint: var(--color-gray-300); /* Semantic — Very low emphasis icons. */
+  --color-icon-inactive: var(--color-gray-200); /* Semantic — Inactive icons. */
+  --color-icon-on-dark: var(--color-base-white); /* Semantic — Icons on dark chrome. */
+  --color-text-on-light: var(--color-base-black); /* Semantic — Dark text that stays dark in both themes, for elements that keep a light fill in Dark (chips). */
+  --color-icon-on-light: var(--color-base-black); /* Semantic — Dark icon that stays dark in both themes, for elements that keep a light fill in Dark (chips). */
+  --color-icon-on-light-subtle: var(--color-gray-600); /* Semantic — Secondary icon on light fills in both themes (the icon next to a chip avatar). */
+  --color-icon-accent: var(--color-green-600); /* Semantic — Active navigation item icon. */
+  --color-icon-accent-hover: var(--color-green-700); /* Semantic — Hover colour of an icon-only button (e.g. the info icon in the Entrance card). */
+  --color-icon-tertiary: var(--color-teal-600); /* Semantic — Icon — tertiary. */
+  --color-icon-purple: var(--color-purple-600); /* Semantic — Category colour (purple) — icon for calendar entries, tags and categorising; not for actions. */
+  --color-icon-indigo: var(--color-indigo-700); /* Semantic — Category colour (indigo) — icon for calendar entries, tags and categorising; not for actions. */
+  --color-icon-orange: var(--color-orange-600); /* Semantic — Category colour (orange) — icon for calendar entries, tags and categorising; not for actions. */
+  --color-icon-gold: var(--color-gold-600); /* Semantic — Category colour (gold) — icon for calendar entries, tags and categorising; not for actions. */
+  --color-icon-error: var(--color-red-500); /* Semantic — Icon — error. */
+  --color-icon-warning: var(--color-yellow-500); /* Semantic — Icon — warning. */
+  --color-accent-primary: var(--color-green-600); /* Semantic — Brand green fill for selected/active marks. */
+  --color-accent-primary-hover: var(--color-green-700); /* Semantic — Hover fill of a control on a color-accent-primary surface (e.g. the month arrows in the MonthCalendar header). White icon on it. */
+  --color-accent-primary-soft: var(--color-green-500); /* Semantic — Avatar / check circle in chips. */
+  --color-accent-primary-subtle: var(--color-green-300); /* Semantic — Soft avatar / check circle in chips. */
+  --color-accent-secondary: var(--color-gray-600); /* Semantic — Neutral accent fill. */
+  --color-accent-tertiary: var(--color-teal-600); /* Semantic — Accent — tertiary. */
+  --color-accent-purple: var(--color-purple-600); /* Semantic — Category colour (purple) — accent for calendar entries, tags and categorising; not for actions. */
+  --color-accent-indigo: var(--color-indigo-700); /* Semantic — Category colour (indigo) — accent for calendar entries, tags and categorising; not for actions. */
+  --color-accent-orange: var(--color-orange-600); /* Semantic — Category colour (orange) — accent for calendar entries, tags and categorising; not for actions. */
+  --color-accent-gold: var(--color-gold-600); /* Semantic — Category colour (gold) — accent for calendar entries, tags and categorising; not for actions. */
+  --color-accent-error: var(--color-red-500); /* Semantic — Accent — error. */
+  --color-accent-warning: var(--color-yellow-500); /* Semantic — Accent — warning. */
+  --color-accent-disabled: var(--color-gray-300); /* Semantic — Disabled avatar / check circle. */
+  --color-action-primary-bg-default: var(--color-green-600); /* Semantic — Interactive fill/text for buttons and chips — primary · bg · default. Tuned for Dark. */
+  --color-action-primary-bg-hover: var(--color-green-700); /* Semantic — Interactive fill/text for buttons and chips — primary · bg · hover. Tuned for Dark. */
+  --color-action-primary-bg-active: var(--color-green-500); /* Semantic — Interactive fill/text for buttons and chips — primary · bg · active. Tuned for Dark. */
+  --color-action-primary-text-default: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — primary · text · default. Tuned for Dark. */
+  --color-action-primary-text-hover: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — primary · text · hover. Tuned for Dark. */
+  --color-action-primary-text-active: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — primary · text · active. Tuned for Dark. */
+  --color-action-secondary-bg-default: var(--color-gray-600); /* Semantic — Interactive fill/text for buttons and chips — secondary · bg · default. Tuned for Dark. */
+  --color-action-secondary-bg-hover: var(--color-gray-700); /* Semantic — Interactive fill/text for buttons and chips — secondary · bg · hover. Tuned for Dark. */
+  --color-action-secondary-bg-active: var(--color-gray-500); /* Semantic — Interactive fill/text for buttons and chips — secondary · bg · active. Tuned for Dark. */
+  --color-action-secondary-text-default: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — secondary · text · default. Tuned for Dark. */
+  --color-action-secondary-text-hover: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — secondary · text · hover. Tuned for Dark. */
+  --color-action-secondary-text-active: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — secondary · text · active. Tuned for Dark. */
+  --color-action-tertiary-bg-default: var(--color-teal-600); /* Semantic — Interactive fill/text for buttons and chips — tertiary · bg · default. Tuned for Dark. */
+  --color-action-tertiary-bg-hover: var(--color-teal-500); /* Semantic — Interactive fill/text for buttons and chips — tertiary · bg · hover. Tuned for Dark. */
+  --color-action-tertiary-bg-active: var(--color-teal-400); /* Semantic — Interactive fill/text for buttons and chips — tertiary · bg · active. Tuned for Dark. */
+  --color-action-tertiary-text-default: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — tertiary · text · default. Tuned for Dark. */
+  --color-action-tertiary-text-hover: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — tertiary · text · hover. Tuned for Dark. */
+  --color-action-tertiary-text-active: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — tertiary · text · active. Tuned for Dark. */
+  --color-action-error-bg-default: var(--color-red-600); /* Semantic — Interactive fill/text for buttons and chips — error · bg · default. Tuned for Dark. */
+  --color-action-error-bg-hover: var(--color-red-700); /* Semantic — Interactive fill/text for buttons and chips — error · bg · hover. Tuned for Dark. */
+  --color-action-error-bg-active: var(--color-red-800); /* Semantic — Interactive fill/text for buttons and chips — error · bg · active. Tuned for Dark. */
+  --color-action-error-text-default: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — error · text · default. Tuned for Dark. */
+  --color-action-error-text-hover: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — error · text · hover. Tuned for Dark. */
+  --color-action-error-text-active: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — error · text · active. Tuned for Dark. */
+  --color-action-warning-bg-default: var(--color-yellow-600); /* Semantic — Interactive fill/text for buttons and chips — warning · bg · default. Tuned for Dark. */
+  --color-action-warning-bg-hover: var(--color-yellow-500); /* Semantic — Interactive fill/text for buttons and chips — warning · bg · hover. Tuned for Dark. */
+  --color-action-warning-bg-active: var(--color-yellow-400); /* Semantic — Interactive fill/text for buttons and chips — warning · bg · active. Tuned for Dark. */
+  --color-action-warning-text-default: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — warning · text · default. Tuned for Dark. */
+  --color-action-warning-text-hover: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — warning · text · hover. Tuned for Dark. */
+  --color-action-warning-text-active: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — warning · text · active. Tuned for Dark. */
+  --color-action-outline-bg-default: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — outline · bg · default. Tuned for Dark. */
+  --color-action-outline-bg-hover: var(--color-green-200); /* Semantic — Interactive fill/text for buttons and chips — outline · bg · hover. Tuned for Dark. */
+  --color-action-outline-bg-active: var(--color-green-300); /* Semantic — Interactive fill/text for buttons and chips — outline · bg · active. Tuned for Dark. */
+  --color-action-outline-text-default: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — outline · text · default. Tuned for Dark. */
+  --color-action-outline-text-hover: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — outline · text · hover. Tuned for Dark. */
+  --color-action-outline-text-active: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — outline · text · active. Tuned for Dark. */
+  --color-action-outline-border: var(--color-gray-300); /* Semantic — Interactive fill/text for buttons and chips — outline · border. Tuned for Dark. */
+  --color-action-text-only-bg: var(--color-base-white); /* Semantic — Interactive fill/text for buttons and chips — text-only · bg. Tuned for Dark. */
+  --color-action-text-only-text-default: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — text-only · text · default. Tuned for Dark. */
+  --color-action-text-only-text-hover: var(--color-green-600); /* Semantic — Interactive fill/text for buttons and chips — text-only · text · hover. Tuned for Dark. */
+  --color-action-text-only-text-active: var(--color-base-black); /* Semantic — Interactive fill/text for buttons and chips — text-only · text · active. Tuned for Dark. */
+  --color-action-text-only-text-disabled: var(--color-gray-400); /* Semantic — Interactive fill/text for buttons and chips — text-only · text · disabled. Tuned for Dark. */
+  --color-action-disabled-bg: var(--color-gray-300); /* Semantic — Interactive fill/text for buttons and chips — disabled · bg. Tuned for Dark. */
+  --color-action-disabled-text: var(--color-gray-500); /* Semantic — Interactive fill/text for buttons and chips — disabled · text. Tuned for Dark. */
+  --color-action-brand-subtle-bg-default: var(--color-green-100); /* Semantic — Interactive fill/text for buttons and chips — brand-subtle · bg · default. Tuned for Dark. */
+  --color-action-brand-subtle-bg-hover: var(--color-green-200); /* Semantic — Interactive fill/text for buttons and chips — brand-subtle · bg · hover. Tuned for Dark. */
+  --color-action-brand-subtle-bg-active: var(--color-green-300); /* Semantic — Interactive fill/text for buttons and chips — brand-subtle · bg · active. Tuned for Dark. */
+  --color-action-neutral-subtle-bg-default: var(--color-gray-50); /* Semantic — Interactive fill/text for buttons and chips — neutral-subtle · bg · default. Tuned for Dark. */
+  --color-action-neutral-subtle-bg-hover: var(--color-gray-100); /* Semantic — Interactive fill/text for buttons and chips — neutral-subtle · bg · hover. Tuned for Dark. */
+  --color-action-neutral-subtle-bg-active: var(--color-gray-200); /* Semantic — Interactive fill/text for buttons and chips — neutral-subtle · bg · active. Tuned for Dark. */
+  --color-action-disabled-subtle-bg: var(--color-gray-200); /* Semantic — Interactive fill/text for buttons and chips — disabled-subtle · bg. Tuned for Dark. */
+  --color-control-border-default: var(--color-base-black); /* Semantic — Form controls (checkbox, radio, toggle, slider) — border · default. Tuned for Dark. */
+  --color-control-border-selected: var(--color-green-600); /* Semantic — Form controls (checkbox, radio, toggle, slider) — border · selected. Tuned for Dark. */
+  --color-control-border-error: var(--color-red-500); /* Semantic — Form controls (checkbox, radio, toggle, slider) — border · error. Tuned for Dark. */
+  --color-control-border-disabled: var(--color-gray-300); /* Semantic — Form controls (checkbox, radio, toggle, slider) — border · disabled. Tuned for Dark. */
+  --color-control-bg-selected: var(--color-green-600); /* Semantic — Form controls (checkbox, radio, toggle, slider) — bg · selected. Tuned for Dark. */
+  --color-control-bg-error: var(--color-red-500); /* Semantic — Form controls (checkbox, radio, toggle, slider) — bg · error. Tuned for Dark. */
+  --color-control-bg-hover: var(--color-gray-50); /* Semantic — Hover fill of an empty checkbox or radio. */
+  --color-control-mark-default: var(--color-base-black); /* Semantic — Form controls (checkbox, radio, toggle, slider) — mark · default. Tuned for Dark. */
+  --color-control-mark-on-fill: var(--color-base-black); /* Semantic — Form controls (checkbox, radio, toggle, slider) — mark · on-fill. Tuned for Dark. */
+  --color-control-mark-disabled: var(--color-gray-300); /* Semantic — Form controls (checkbox, radio, toggle, slider) — mark · disabled. Tuned for Dark. */
+  --color-control-track-on: var(--color-green-600); /* Semantic — Form controls (checkbox, radio, toggle, slider) — track · on. Tuned for Dark. */
+  --color-control-track-off: var(--color-base-white); /* Semantic — Form controls (checkbox, radio, toggle, slider) — track · off. Tuned for Dark. */
+  --color-control-track-disabled: var(--color-gray-50); /* Semantic — Form controls (checkbox, radio, toggle, slider) — track · disabled. Tuned for Dark. */
+  --color-control-track-border: var(--color-gray-300); /* Semantic — Form controls (checkbox, radio, toggle, slider) — track · border. Tuned for Dark. */
+  --color-control-track-border-disabled: var(--color-gray-200); /* Semantic — Form controls (checkbox, radio, toggle, slider) — track · border-disabled. Tuned for Dark. */
+  --color-control-knob-default: var(--color-base-white); /* Semantic — Form controls (checkbox, radio, toggle, slider) — knob · default. Tuned for Dark. */
+  --color-control-knob-off: var(--color-gray-400); /* Semantic — Form controls (checkbox, radio, toggle, slider) — knob · off. Tuned for Dark. */
+  --color-control-knob-disabled: var(--color-gray-200); /* Semantic — Form controls (checkbox, radio, toggle, slider) — knob · disabled. Tuned for Dark. */
+  --color-control-rail: var(--color-gray-200); /* Semantic — Form controls (checkbox, radio, toggle, slider) — rail. Tuned for Dark. */
+  --color-control-rail-fill-primary: var(--color-green-700); /* Semantic — Form controls (checkbox, radio, toggle, slider) — rail-fill · primary. Tuned for Dark. */
+  --color-control-rail-fill-secondary: var(--color-gray-400); /* Semantic — Form controls (checkbox, radio, toggle, slider) — rail-fill · secondary. Tuned for Dark. */
+  --color-control-thumb-primary: var(--color-green-600); /* Semantic — Form controls (checkbox, radio, toggle, slider) — thumb · primary. Tuned for Dark. */
+  --color-control-thumb-secondary: var(--color-gray-600); /* Semantic — Form controls (checkbox, radio, toggle, slider) — thumb · secondary. Tuned for Dark. */
+  --color-control-thumb-disabled: var(--color-gray-300); /* Semantic — Form controls (checkbox, radio, toggle, slider) — thumb · disabled. Tuned for Dark. */
+  --color-button-main-bg-default: var(--color-action-primary-bg-default); /* Component — button "main" bg · default. Points to color-action-primary-bg-default. */
+  --color-button-main-bg-hover: var(--color-action-primary-bg-hover); /* Component — button "main" bg · hover. Points to color-action-primary-bg-hover. */
+  --color-button-main-bg-active: var(--color-action-primary-bg-active); /* Component — button "main" bg · active. Points to color-action-primary-bg-active. */
+  --color-button-main-text-default: var(--color-action-primary-text-default); /* Component — button "main" text · default. Points to color-action-primary-text-default. */
+  --color-button-main-text-hover: var(--color-action-primary-text-hover); /* Component — button "main" text · hover. Points to color-action-primary-text-hover. */
+  --color-button-main-text-active: var(--color-action-primary-text-active); /* Component — button "main" text · active. Points to color-action-primary-text-active. */
+  --color-button-secondary-bg-default: var(--color-action-secondary-bg-default); /* Component — button "secondary" bg · default. Points to color-action-secondary-bg-default. */
+  --color-button-secondary-bg-hover: var(--color-action-secondary-bg-hover); /* Component — button "secondary" bg · hover. Points to color-action-secondary-bg-hover. */
+  --color-button-secondary-bg-active: var(--color-action-secondary-bg-active); /* Component — button "secondary" bg · active. Points to color-action-secondary-bg-active. */
+  --color-button-secondary-text-default: var(--color-action-secondary-text-default); /* Component — button "secondary" text · default. Points to color-action-secondary-text-default. */
+  --color-button-secondary-text-hover: var(--color-action-secondary-text-hover); /* Component — button "secondary" text · hover. Points to color-action-secondary-text-hover. */
+  --color-button-secondary-text-active: var(--color-action-secondary-text-active); /* Component — button "secondary" text · active. Points to color-action-secondary-text-active. */
+  --color-button-tertiary-bg-default: var(--color-action-tertiary-bg-default); /* Component — button "tertiary" bg · default. Points to color-action-tertiary-bg-default. */
+  --color-button-tertiary-bg-hover: var(--color-action-tertiary-bg-hover); /* Component — button "tertiary" bg · hover. Points to color-action-tertiary-bg-hover. */
+  --color-button-tertiary-bg-active: var(--color-action-tertiary-bg-active); /* Component — button "tertiary" bg · active. Points to color-action-tertiary-bg-active. */
+  --color-button-tertiary-text-default: var(--color-action-tertiary-text-default); /* Component — button "tertiary" text · default. Points to color-action-tertiary-text-default. */
+  --color-button-tertiary-text-hover: var(--color-action-tertiary-text-hover); /* Component — button "tertiary" text · hover. Points to color-action-tertiary-text-hover. */
+  --color-button-tertiary-text-active: var(--color-action-tertiary-text-active); /* Component — button "tertiary" text · active. Points to color-action-tertiary-text-active. */
+  --color-button-error-bg-default: var(--color-action-error-bg-default); /* Component — button "error" bg · default. Points to color-action-error-bg-default. */
+  --color-button-error-bg-hover: var(--color-action-error-bg-hover); /* Component — button "error" bg · hover. Points to color-action-error-bg-hover. */
+  --color-button-error-bg-active: var(--color-action-error-bg-active); /* Component — button "error" bg · active. Points to color-action-error-bg-active. */
+  --color-button-error-text-default: var(--color-action-error-text-default); /* Component — button "error" text · default. Points to color-action-error-text-default. */
+  --color-button-error-text-hover: var(--color-action-error-text-hover); /* Component — button "error" text · hover. Points to color-action-error-text-hover. */
+  --color-button-error-text-active: var(--color-action-error-text-active); /* Component — button "error" text · active. Points to color-action-error-text-active. */
+  --color-button-warning-bg-default: var(--color-action-warning-bg-default); /* Component — button "warning" bg · default. Points to color-action-warning-bg-default. */
+  --color-button-warning-bg-hover: var(--color-action-warning-bg-hover); /* Component — button "warning" bg · hover. Points to color-action-warning-bg-hover. */
+  --color-button-warning-bg-active: var(--color-action-warning-bg-active); /* Component — button "warning" bg · active. Points to color-action-warning-bg-active. */
+  --color-button-warning-text-default: var(--color-action-warning-text-default); /* Component — button "warning" text · default. Points to color-action-warning-text-default. */
+  --color-button-warning-text-hover: var(--color-action-warning-text-hover); /* Component — button "warning" text · hover. Points to color-action-warning-text-hover. */
+  --color-button-warning-text-active: var(--color-action-warning-text-active); /* Component — button "warning" text · active. Points to color-action-warning-text-active. */
+  --color-button-outline-bg-default: var(--color-action-outline-bg-default); /* Component — button "outline" bg · default. Points to color-action-outline-bg-default. */
+  --color-button-outline-bg-hover: var(--color-action-outline-bg-hover); /* Component — button "outline" bg · hover. Points to color-action-outline-bg-hover. */
+  --color-button-outline-bg-active: var(--color-action-outline-bg-active); /* Component — button "outline" bg · active. Points to color-action-outline-bg-active. */
+  --color-button-outline-text-default: var(--color-action-outline-text-default); /* Component — button "outline" text · default. Points to color-action-outline-text-default. */
+  --color-button-outline-text-hover: var(--color-action-outline-text-hover); /* Component — button "outline" text · hover. Points to color-action-outline-text-hover. */
+  --color-button-outline-text-active: var(--color-action-outline-text-active); /* Component — button "outline" text · active. Points to color-action-outline-text-active. */
+  --color-button-outline-border: var(--color-action-outline-border); /* Component — button "outline" border. Points to color-action-outline-border. */
+  --color-button-text-bg: var(--color-action-text-only-bg); /* Component — button "text" bg. Points to color-action-text-only-bg. */
+  --color-button-text-text-default: var(--color-action-text-only-text-default); /* Component — button "text" text · default. Points to color-action-text-only-text-default. */
+  --color-button-text-text-hover: var(--color-action-text-only-text-hover); /* Component — button "text" text · hover. Points to color-action-text-only-text-hover. */
+  --color-button-text-text-active: var(--color-action-text-only-text-active); /* Component — button "text" text · active. Points to color-action-text-only-text-active. */
+  --color-button-text-text-disabled: var(--color-action-text-only-text-disabled); /* Component — button "text" text · disabled. Points to color-action-text-only-text-disabled. */
+  --color-button-disabled-bg: var(--color-action-disabled-bg); /* Component — button "disabled" bg. Points to color-action-disabled-bg. */
+  --color-button-disabled-text: var(--color-action-disabled-text); /* Component — button "disabled" text. Points to color-action-disabled-text. */
+  --color-chip-brand-bg-default: var(--color-action-brand-subtle-bg-default); /* Component — chip "brand" bg · default. Points to color-action-brand-subtle-bg-default. */
+  --color-chip-brand-bg-hover: var(--color-action-brand-subtle-bg-hover); /* Component — chip "brand" bg · hover. Points to color-action-brand-subtle-bg-hover. */
+  --color-chip-brand-bg-active: var(--color-action-brand-subtle-bg-active); /* Component — chip "brand" bg · active. Points to color-action-brand-subtle-bg-active. */
+  --color-chip-neutral-bg-default: var(--color-action-neutral-subtle-bg-default); /* Component — chip "neutral" bg · default. Points to color-action-neutral-subtle-bg-default. */
+  --color-chip-neutral-bg-hover: var(--color-action-neutral-subtle-bg-hover); /* Component — chip "neutral" bg · hover. Points to color-action-neutral-subtle-bg-hover. */
+  --color-chip-neutral-bg-active: var(--color-action-neutral-subtle-bg-active); /* Component — chip "neutral" bg · active. Points to color-action-neutral-subtle-bg-active. */
+  --color-chip-disabled-bg: var(--color-action-disabled-subtle-bg); /* Component — chip "disabled" bg. Points to color-action-disabled-subtle-bg. */
+  --color-chip-text-default: var(--color-text-on-light); /* Component — chip "text" default. Points to color-text-on-light. */
+  --color-chip-text-disabled: var(--color-gray-400); /* Component — chip "text" disabled. Fixed gray-400 in both themes (chips are light in both). */
+  --color-chip-icon-default: var(--color-icon-on-light); /* Component — chip "icon" default. Points to color-icon-on-light. */
+  --color-chip-icon-avatar: var(--color-icon-on-light-subtle); /* Component — chip "icon" avatar. Points to color-icon-on-light-subtle. */
+  --color-chip-icon-disabled: var(--color-gray-400); /* Component — chip "icon" disabled. Fixed gray-400 in both themes (chips are light in both). */
+  --color-chip-avatar-bg-default: var(--color-accent-primary-soft); /* Component — chip "avatar" bg · default. Points to color-accent-primary-soft. */
+  --color-chip-avatar-bg-subtle: var(--color-accent-primary-subtle); /* Component — chip "avatar" bg · subtle. Points to color-accent-primary-subtle. */
+  --color-chip-avatar-bg-disabled: var(--color-accent-disabled); /* Component — chip "avatar" bg · disabled. Points to color-accent-disabled. */
+  --shadow-10: 0 2px 1px 0 #00000026; /* Elevation (Figma effect style shadow-10). */
+  --shadow-20: 0 2px 2px 0 #00000040; /* Elevation (Figma effect style shadow-20). */
+  --shadow-30: 0 3px 3px 0 #00000040; /* Elevation (Figma effect style shadow-30). */
+  --shadow-40: 0 4px 4px 0 #00000040; /* Elevation (Figma effect style shadow-40). Dropdowns and menus. */
+  --shadow-50: 0 5px 5px 0 #00000040; /* Elevation (Figma effect style shadow-50). */
+  --shadow-60: 0 6px 6px 0 #00000040; /* Elevation (Figma effect style shadow-60). */
+  --shadow-70: 0 7px 7px 0 #00000040; /* Elevation (Figma effect style shadow-70). */
+  --shadow-80-double: 0 8px 8px 0 #00000040, 0 4px 4px 0 #00000026; /* Elevation (Figma effect style shadow-80-double). */
+  --shadow-120-double: 0 12px 12px 0 #00000040, 0 8px 8px 0 #00000026; /* Elevation (Figma effect style shadow-120-double). */
+  --shadow-160-double: 0 16px 16px 0 #00000040, 0 12px 12px 0 #00000026; /* Elevation (Figma effect style shadow-160-double). Modals and dialogs. */
+}
+[data-theme="dark"] {
+  --color-base-black: #000000;
+  --color-base-white: #ffffff;
+  --color-green-900: #08351a;
+  --color-green-800: #116a34;
+  --color-green-700: #199e4d;
+  --color-green-600: #21d367;
+  --color-green-500: #4ddc85;
+  --color-green-400: #7ae5a4;
+  --color-green-300: #a6edc2;
+  --color-green-200: #d3f6e1;
+  --color-green-100: #e5faed;
+  --color-green-50: #f2fff7;
+  --color-gray-900: #0e1012;
+  --color-gray-800: #1d2024;
+  --color-gray-700: #2c2f35;
+  --color-gray-600: #3a3f47;
+  --color-gray-500: #61656c;
+  --color-gray-400: #898c91;
+  --color-gray-300: #b0b2b5;
+  --color-gray-200: #d8d9da;
+  --color-gray-100: #e8e8e9;
+  --color-gray-50: #f1f1f2;
+  --color-teal-900: #0f3840;
+  --color-teal-800: #164f5a;
+  --color-teal-700: #207786;
+  --color-teal-600: #2b9eb3;
+  --color-teal-500: #55b1c2;
+  --color-teal-400: #80c5d1;
+  --color-teal-300: #aad8e1;
+  --color-teal-200: #d5ecf0;
+  --color-teal-100: #e6f3f6;
+  --color-teal-50: #f7fbfc;
+  --color-purple-900: #281b29;
+  --color-purple-800: #4f3552;
+  --color-purple-700: #764f7a;
+  --color-purple-600: #9d69a3;
+  --color-purple-500: #b187b5;
+  --color-purple-400: #c4a5c8;
+  --color-purple-300: #d8c3da;
+  --color-purple-200: #ebe1ed;
+  --color-purple-100: #f3edf4;
+  --color-purple-50: #fbf9fb;
+  --color-indigo-900: #1b2036;
+  --color-indigo-800: #36406c;
+  --color-indigo-700: #505fa1;
+  --color-indigo-600: #6b7fd7;
+  --color-indigo-500: #8999df;
+  --color-indigo-400: #a6b2e7;
+  --color-indigo-300: #c4ccef;
+  --color-indigo-200: #e1e5f7;
+  --color-indigo-100: #edf0fa;
+  --color-indigo-50: #f9fafd;
+  --color-orange-900: #3d221a;
+  --color-orange-800: #7a4334;
+  --color-orange-700: #b7654e;
+  --color-orange-600: #f48668;
+  --color-orange-500: #f69e86;
+  --color-orange-400: #f8b6a4;
+  --color-orange-300: #fbcfc3;
+  --color-orange-200: #fde7e1;
+  --color-orange-100: #fef0ed;
+  --color-orange-50: #fffaf9;
+  --color-gold-900: #382f1c;
+  --color-gold-800: #6f5d38;
+  --color-gold-700: #a78c53;
+  --color-gold-600: #deba6f;
+  --color-gold-500: #e5c88c;
+  --color-gold-400: #ebd6a9;
+  --color-gold-300: #f2e3c5;
+  --color-gold-200: #f8f1e2;
+  --color-gold-100: #fbf7ee;
+  --color-gold-50: #fefcf9;
+  --color-red-900: #420a07;
+  --color-red-800: #5c0e0a;
+  --color-red-700: #75120d;
+  --color-red-600: #a81a12;
+  --color-red-500: #e64f46;
+  --color-red-400: #ec7b74;
+  --color-red-300: #f3a7a3;
+  --color-red-200: #f9d3d1;
+  --color-red-100: #fbe5e3;
+  --color-red-50: #fff3f2;
+  --color-yellow-900: #383006;
+  --color-yellow-800: #705f0c;
+  --color-yellow-700: #a88f12;
+  --color-yellow-600: #e0be18;
+  --color-yellow-500: #e6cb46;
+  --color-yellow-400: #ecd874;
+  --color-yellow-300: #f3e5a3;
+  --color-yellow-200: #f9f2d1;
+  --color-yellow-100: #fbf7e3;
+  --color-yellow-50: #fffced;
+  --color-surface-primary: var(--color-gray-700);
+  --color-surface-primary-container: var(--color-gray-600);
+  --color-surface-secondary: var(--color-green-900);
+  --color-surface-secondary-container: var(--color-gray-800);
+  --color-surface-secondary-container-hover: var(--color-gray-700);
+  --color-surface-accent: var(--color-green-800);
+  --color-surface-accent-container: var(--color-green-700);
+  --color-surface-tertiary: var(--color-teal-800);
+  --color-surface-tertiary-container: var(--color-teal-700);
+  --color-surface-purple: var(--color-purple-800);
+  --color-surface-purple-container: var(--color-purple-700);
+  --color-surface-indigo: var(--color-indigo-900);
+  --color-surface-indigo-container: var(--color-indigo-800);
+  --color-surface-orange: var(--color-orange-900);
+  --color-surface-orange-container: var(--color-orange-800);
+  --color-surface-gold: var(--color-gold-900);
+  --color-surface-gold-container: var(--color-gold-800);
+  --color-surface-error: var(--color-red-600);
+  --color-surface-error-container: var(--color-red-700);
+  --color-surface-warning: var(--color-yellow-500);
+  --color-surface-warning-container: var(--color-yellow-600);
+  --color-surface-warning-strong: var(--color-yellow-500);
+  --color-surface-highlight: var(--color-gold-700);
+  --color-surface-neutral-strong: var(--color-gray-600);
+  --color-surface-selected: var(--color-gray-800);
+  --color-text-default: var(--color-base-white);
+  --color-text-subtle: var(--color-gray-200);
+  --color-text-muted: var(--color-gray-300);
+  --color-text-placeholder: var(--color-gray-300);
+  --color-text-faint: var(--color-gray-500);
+  --color-text-disabled: var(--color-gray-500);
+  --color-text-on-dark: var(--color-base-white);
+  --color-text-accent: var(--color-green-500);
+  --color-text-link-default: var(--color-teal-400);
+  --color-text-link-hover: var(--color-teal-300);
+  --color-text-link-active: var(--color-teal-200);
+  --color-text-link-visited: var(--color-teal-500);
+  --color-text-error-default: var(--color-red-400);
+  --color-text-error-hover: var(--color-red-300);
+  --color-text-error-active: var(--color-red-200);
+  --color-text-error-visited: var(--color-red-300);
+  --color-text-warning-default: var(--color-yellow-600);
+  --color-text-warning-hover: var(--color-yellow-500);
+  --color-text-warning-active: var(--color-yellow-400);
+  --color-text-warning-visited: var(--color-yellow-500);
+  --color-border-primary: var(--color-gray-500);
+  --color-border-secondary: var(--color-gray-800);
+  --color-border-strong: var(--color-gray-400);
+  --color-border-hover: var(--color-gray-300);
+  --color-border-on-dark: var(--color-base-white);
+  --color-border-accent: var(--color-green-500);
+  --color-border-focus: var(--color-green-500);
+  --color-border-tertiary: var(--color-teal-200);
+  --color-border-purple: var(--color-purple-300);
+  --color-border-indigo: var(--color-indigo-300);
+  --color-border-orange: var(--color-orange-300);
+  --color-border-gold: var(--color-gold-300);
+  --color-border-error: var(--color-red-300);
+  --color-border-warning: var(--color-yellow-200);
+  --color-icon-primary: var(--color-base-white);
+  --color-icon-secondary: var(--color-gray-200);
+  --color-icon-placeholder: var(--color-gray-400);
+  --color-icon-faint: var(--color-gray-600);
+  --color-icon-inactive: var(--color-gray-500);
+  --color-icon-on-dark: var(--color-base-white);
+  --color-text-on-light: var(--color-base-black);
+  --color-icon-on-light: var(--color-base-black);
+  --color-icon-on-light-subtle: var(--color-gray-600);
+  --color-icon-accent: var(--color-green-500);
+  --color-icon-accent-hover: var(--color-green-500);
+  --color-icon-tertiary: var(--color-teal-200);
+  --color-icon-purple: var(--color-purple-300);
+  --color-icon-indigo: var(--color-indigo-300);
+  --color-icon-orange: var(--color-orange-300);
+  --color-icon-gold: var(--color-gold-300);
+  --color-icon-error: var(--color-red-300);
+  --color-icon-warning: var(--color-yellow-200);
+  --color-accent-primary: var(--color-green-500);
+  --color-accent-primary-hover: var(--color-green-700);
+  --color-accent-primary-soft: var(--color-green-500);
+  --color-accent-primary-subtle: var(--color-green-300);
+  --color-accent-secondary: var(--color-gray-400);
+  --color-accent-tertiary: var(--color-teal-200);
+  --color-accent-purple: var(--color-purple-300);
+  --color-accent-indigo: var(--color-indigo-300);
+  --color-accent-orange: var(--color-orange-300);
+  --color-accent-gold: var(--color-gold-300);
+  --color-accent-error: var(--color-red-300);
+  --color-accent-warning: var(--color-yellow-200);
+  --color-accent-disabled: var(--color-gray-300);
+  --color-action-primary-bg-default: var(--color-green-600);
+  --color-action-primary-bg-hover: var(--color-green-500);
+  --color-action-primary-bg-active: var(--color-green-400);
+  --color-action-primary-text-default: var(--color-base-black);
+  --color-action-primary-text-hover: var(--color-base-black);
+  --color-action-primary-text-active: var(--color-base-black);
+  --color-action-secondary-bg-default: var(--color-gray-200);
+  --color-action-secondary-bg-hover: var(--color-gray-100);
+  --color-action-secondary-bg-active: var(--color-gray-300);
+  --color-action-secondary-text-default: var(--color-base-black);
+  --color-action-secondary-text-hover: var(--color-base-black);
+  --color-action-secondary-text-active: var(--color-base-black);
+  --color-action-tertiary-bg-default: var(--color-teal-500);
+  --color-action-tertiary-bg-hover: var(--color-teal-400);
+  --color-action-tertiary-bg-active: var(--color-teal-300);
+  --color-action-tertiary-text-default: var(--color-base-black);
+  --color-action-tertiary-text-hover: var(--color-base-black);
+  --color-action-tertiary-text-active: var(--color-base-black);
+  --color-action-error-bg-default: var(--color-red-400);
+  --color-action-error-bg-hover: var(--color-red-300);
+  --color-action-error-bg-active: var(--color-red-300);
+  --color-action-error-text-default: var(--color-base-black);
+  --color-action-error-text-hover: var(--color-base-black);
+  --color-action-error-text-active: var(--color-base-black);
+  --color-action-warning-bg-default: var(--color-yellow-600);
+  --color-action-warning-bg-hover: var(--color-yellow-500);
+  --color-action-warning-bg-active: var(--color-yellow-400);
+  --color-action-warning-text-default: var(--color-base-black);
+  --color-action-warning-text-hover: var(--color-base-black);
+  --color-action-warning-text-active: var(--color-base-black);
+  --color-action-outline-bg-default: var(--color-gray-700);
+  --color-action-outline-bg-hover: var(--color-green-900);
+  --color-action-outline-bg-active: var(--color-green-800);
+  --color-action-outline-text-default: var(--color-base-white);
+  --color-action-outline-text-hover: var(--color-base-white);
+  --color-action-outline-text-active: var(--color-base-white);
+  --color-action-outline-border: var(--color-gray-400);
+  --color-action-text-only-bg: var(--color-gray-700);
+  --color-action-text-only-text-default: var(--color-base-white);
+  --color-action-text-only-text-hover: var(--color-green-500);
+  --color-action-text-only-text-active: var(--color-base-white);
+  --color-action-text-only-text-disabled: var(--color-gray-500);
+  --color-action-disabled-bg: var(--color-gray-800);
+  --color-action-disabled-text: var(--color-gray-400);
+  --color-action-brand-subtle-bg-default: var(--color-green-100);
+  --color-action-brand-subtle-bg-hover: var(--color-green-200);
+  --color-action-brand-subtle-bg-active: var(--color-green-300);
+  --color-action-neutral-subtle-bg-default: var(--color-gray-50);
+  --color-action-neutral-subtle-bg-hover: var(--color-gray-100);
+  --color-action-neutral-subtle-bg-active: var(--color-gray-200);
+  --color-action-disabled-subtle-bg: var(--color-gray-200);
+  --color-control-border-default: var(--color-gray-200);
+  --color-control-border-selected: var(--color-green-500);
+  --color-control-border-error: var(--color-red-400);
+  --color-control-border-disabled: var(--color-gray-500);
+  --color-control-bg-selected: var(--color-green-600);
+  --color-control-bg-error: var(--color-red-500);
+  --color-control-bg-hover: var(--color-gray-600);
+  --color-control-mark-default: var(--color-base-white);
+  --color-control-mark-on-fill: var(--color-base-black);
+  --color-control-mark-disabled: var(--color-gray-500);
+  --color-control-track-on: var(--color-green-600);
+  --color-control-track-off: var(--color-gray-700);
+  --color-control-track-disabled: var(--color-gray-600);
+  --color-control-track-border: var(--color-gray-400);
+  --color-control-track-border-disabled: var(--color-gray-600);
+  --color-control-knob-default: var(--color-base-white);
+  --color-control-knob-off: var(--color-gray-400);
+  --color-control-knob-disabled: var(--color-gray-500);
+  --color-control-rail: var(--color-gray-400);
+  --color-control-rail-fill-primary: var(--color-green-500);
+  --color-control-rail-fill-secondary: var(--color-base-white);
+  --color-control-thumb-primary: var(--color-green-600);
+  --color-control-thumb-secondary: var(--color-gray-200);
+  --color-control-thumb-disabled: var(--color-gray-500);
+  --color-button-main-bg-default: var(--color-action-primary-bg-default);
+  --color-button-main-bg-hover: var(--color-action-primary-bg-hover);
+  --color-button-main-bg-active: var(--color-action-primary-bg-active);
+  --color-button-main-text-default: var(--color-action-primary-text-default);
+  --color-button-main-text-hover: var(--color-action-primary-text-hover);
+  --color-button-main-text-active: var(--color-action-primary-text-active);
+  --color-button-secondary-bg-default: var(--color-action-secondary-bg-default);
+  --color-button-secondary-bg-hover: var(--color-action-secondary-bg-hover);
+  --color-button-secondary-bg-active: var(--color-action-secondary-bg-active);
+  --color-button-secondary-text-default: var(--color-action-secondary-text-default);
+  --color-button-secondary-text-hover: var(--color-action-secondary-text-hover);
+  --color-button-secondary-text-active: var(--color-action-secondary-text-active);
+  --color-button-tertiary-bg-default: var(--color-action-tertiary-bg-default);
+  --color-button-tertiary-bg-hover: var(--color-action-tertiary-bg-hover);
+  --color-button-tertiary-bg-active: var(--color-action-tertiary-bg-active);
+  --color-button-tertiary-text-default: var(--color-action-tertiary-text-default);
+  --color-button-tertiary-text-hover: var(--color-action-tertiary-text-hover);
+  --color-button-tertiary-text-active: var(--color-action-tertiary-text-active);
+  --color-button-error-bg-default: var(--color-action-error-bg-default);
+  --color-button-error-bg-hover: var(--color-action-error-bg-hover);
+  --color-button-error-bg-active: var(--color-action-error-bg-active);
+  --color-button-error-text-default: var(--color-action-error-text-default);
+  --color-button-error-text-hover: var(--color-action-error-text-hover);
+  --color-button-error-text-active: var(--color-action-error-text-active);
+  --color-button-warning-bg-default: var(--color-action-warning-bg-default);
+  --color-button-warning-bg-hover: var(--color-action-warning-bg-hover);
+  --color-button-warning-bg-active: var(--color-action-warning-bg-active);
+  --color-button-warning-text-default: var(--color-action-warning-text-default);
+  --color-button-warning-text-hover: var(--color-action-warning-text-hover);
+  --color-button-warning-text-active: var(--color-action-warning-text-active);
+  --color-button-outline-bg-default: var(--color-action-outline-bg-default);
+  --color-button-outline-bg-hover: var(--color-action-outline-bg-hover);
+  --color-button-outline-bg-active: var(--color-action-outline-bg-active);
+  --color-button-outline-text-default: var(--color-action-outline-text-default);
+  --color-button-outline-text-hover: var(--color-action-outline-text-hover);
+  --color-button-outline-text-active: var(--color-action-outline-text-active);
+  --color-button-outline-border: var(--color-action-outline-border);
+  --color-button-text-bg: var(--color-action-text-only-bg);
+  --color-button-text-text-default: var(--color-action-text-only-text-default);
+  --color-button-text-text-hover: var(--color-action-text-only-text-hover);
+  --color-button-text-text-active: var(--color-action-text-only-text-active);
+  --color-button-text-text-disabled: var(--color-action-text-only-text-disabled);
+  --color-button-disabled-bg: var(--color-action-disabled-bg);
+  --color-button-disabled-text: var(--color-action-disabled-text);
+  --color-chip-brand-bg-default: var(--color-action-brand-subtle-bg-default);
+  --color-chip-brand-bg-hover: var(--color-action-brand-subtle-bg-hover);
+  --color-chip-brand-bg-active: var(--color-action-brand-subtle-bg-active);
+  --color-chip-neutral-bg-default: var(--color-action-neutral-subtle-bg-default);
+  --color-chip-neutral-bg-hover: var(--color-action-neutral-subtle-bg-hover);
+  --color-chip-neutral-bg-active: var(--color-action-neutral-subtle-bg-active);
+  --color-chip-disabled-bg: var(--color-action-disabled-subtle-bg);
+  --color-chip-text-default: var(--color-text-on-light);
+  --color-chip-text-disabled: var(--color-gray-400);
+  --color-chip-icon-default: var(--color-icon-on-light);
+  --color-chip-icon-avatar: var(--color-icon-on-light-subtle);
+  --color-chip-icon-disabled: var(--color-gray-400);
+  --color-chip-avatar-bg-default: var(--color-accent-primary-soft);
+  --color-chip-avatar-bg-subtle: var(--color-accent-primary-subtle);
+  --color-chip-avatar-bg-disabled: var(--color-accent-disabled);
+}
+:root {
+  --space-xxs: 2px; /* Hairline gaps (2px). */
+  --space-xs: 4px; /* Chip vertical padding, label-to-field gap. */
+  --space-s: 8px; /* Input and button vertical padding, icon–label gap. */
+  --space-m: 16px; /* Button horizontal padding, card padding. */
+  --space-l: 24px; /* Gaps between cards. */
+  --space-xl: 32px; /* Large section spacing. */
+  --space-xxl: 40px; /* Largest section spacing. */
+  --radius-xxs: 2px; /* Tiny details. */
+  --radius-xs: 4px; /* Chips (default roundness). */
+  --radius-s: 8px; /* Buttons (sm), text inputs, cards, modals — the default. */
+  --radius-m: 16px; /* Large containers. */
+  --radius-l: 24px; /* Hero panels, large cards. */
+  --radius-full: 1000px; /* Pills: all-round buttons, full chips, toggles. */
+  --size-icon-s: 18px; /* Icons inside buttons and chips. */
+  --size-icon-m: 24px; /* Standard icon size. */
+  --border-width-thin: 1px; /* Default stroke: inputs, outline buttons, dividers. */
+  --border-width-medium: 2px; /* Emphasis stroke. */
+  --border-width-thick: 4px; /* Strong emphasis stroke. */
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --text-display-xl: 400 64px/0.9 var(--font-sans);
+  --text-display-l: 400 48px/1 var(--font-sans);
+  --text-display-m: 400 40px/1 var(--font-sans);
+  --text-display-s: 400 32px/1.1 var(--font-sans);
+  --text-display-xs: 400 24px/1.1 var(--font-sans);
+  --text-display-bold-xl: 700 64px/0.9 var(--font-sans);
+  --text-display-bold-l: 700 48px/1 var(--font-sans);
+  --text-display-bold-m: 700 40px/1 var(--font-sans);
+  --text-display-bold-s: 700 32px/1.1 var(--font-sans);
+  --text-display-bold-xs: 700 24px/1.1 var(--font-sans);
+  --text-heading-xl: 400 48px/1.2 var(--font-sans);
+  --text-heading-l: 400 40px/1.2 var(--font-sans);
+  --text-heading-m: 400 32px/1.2 var(--font-sans);
+  --text-heading-s: 400 24px/1.2 var(--font-sans);
+  --text-heading-xs: 400 20px/1.2 var(--font-sans);
+  --text-heading-bold-xl: 700 48px/1.2 var(--font-sans);
+  --text-heading-bold-l: 700 40px/1.2 var(--font-sans);
+  --text-heading-bold-m: 700 32px/1.2 var(--font-sans);
+  --text-heading-bold-s: 700 24px/1.2 var(--font-sans);
+  --text-heading-bold-xs: 700 20px/1.2 var(--font-sans);
+  --text-body-xl: 400 20px/1.2 var(--font-sans);
+  --text-body-l: 400 18px/1.3 var(--font-sans);
+  --text-body-m: 400 16px/1.4 var(--font-sans);
+  --text-body-s: 400 14px/1.4 var(--font-sans);
+  --text-body-xs: 400 12px/1.4 var(--font-sans);
+  --text-body-bold-xl: 700 20px/1.2 var(--font-sans);
+  --text-body-bold-l: 700 18px/1.3 var(--font-sans);
+  --text-body-bold-m: 700 16px/1.4 var(--font-sans);
+  --text-body-bold-s: 700 14px/1.4 var(--font-sans);
+  --text-body-bold-xs: 700 12px/1.4 var(--font-sans);
+  --text-caption: 400 10px/1.4 var(--font-sans); /* Smallest text, e.g. the calendar "+N ακόμα" pill (Figma font/size/caption). */
+}
+.display-xl {
+  font-family: var(--font-sans);
+  font-size: 64px;
+  line-height: 0.9;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.display-l {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.display-m {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.display-s {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.display-xs {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.display-bold-xl {
+  font-family: var(--font-sans);
+  font-size: 64px;
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.display-bold-l {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.display-bold-m {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.display-bold-s {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.display-bold-xs {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.heading-xl {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.heading-l {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.heading-m {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.heading-s {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.heading-xs {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.heading-bold-xl {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.heading-bold-l {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.heading-bold-m {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.heading-bold-s {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.heading-bold-xs {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.body-xl {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-l {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-m {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-s {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-xs {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-bold-xl {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.body-bold-l {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.body-bold-m {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.body-bold-s {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.body-bold-xs {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.caption {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}

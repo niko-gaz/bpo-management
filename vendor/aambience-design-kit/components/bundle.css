@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+/* Button — Figma: msft_Button · tokens: Components collection (button/*) */
+.aa-btn { font-family: var(--font-sans); font-size: 14px; line-height: 1.4; font-weight: 400;
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-s);
+  min-height: 40px; padding: var(--space-s) var(--space-m); border: var(--border-width-thin) solid transparent;
+  border-radius: 0; cursor: pointer; background: var(--color-button-main-bg-default); color: var(--color-button-main-text-default); transition: background-color .12s, color .12s; }
+.aa-btn--r-sm { border-radius: var(--radius-s); }
+.aa-btn--r-full { border-radius: var(--radius-full); }
+.aa-btn:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-btn--main { background: var(--color-button-main-bg-default); color: var(--color-button-main-text-default); }
+.aa-btn--main:hover, .aa-btn--main.is-hover { background: var(--color-button-main-bg-hover); color: var(--color-button-main-text-hover); }
+.aa-btn--main:active, .aa-btn--main.is-active { background: var(--color-button-main-bg-active); color: var(--color-button-main-text-active); }
+.aa-btn--secondary { background: var(--color-button-secondary-bg-default); color: var(--color-button-secondary-text-default); }
+.aa-btn--secondary:hover, .aa-btn--secondary.is-hover { background: var(--color-button-secondary-bg-hover); color: var(--color-button-secondary-text-hover); }
+.aa-btn--secondary:active, .aa-btn--secondary.is-active { background: var(--color-button-secondary-bg-active); color: var(--color-button-secondary-text-active); }
+.aa-btn--tertiary { background: var(--color-button-tertiary-bg-default); color: var(--color-button-tertiary-text-default); }
+.aa-btn--tertiary:hover, .aa-btn--tertiary.is-hover { background: var(--color-button-tertiary-bg-hover); color: var(--color-button-tertiary-text-hover); }
+.aa-btn--tertiary:active, .aa-btn--tertiary.is-active { background: var(--color-button-tertiary-bg-active); color: var(--color-button-tertiary-text-active); }
+.aa-btn--error { background: var(--color-button-error-bg-default); color: var(--color-button-error-text-default); }
+.aa-btn--error:hover, .aa-btn--error.is-hover { background: var(--color-button-error-bg-hover); color: var(--color-button-error-text-hover); }
+.aa-btn--error:active, .aa-btn--error.is-active { background: var(--color-button-error-bg-active); color: var(--color-button-error-text-active); }
+.aa-btn--warning { background: var(--color-button-warning-bg-default); color: var(--color-button-warning-text-default); }
+.aa-btn--warning:hover, .aa-btn--warning.is-hover { background: var(--color-button-warning-bg-hover); color: var(--color-button-warning-text-hover); }
+.aa-btn--warning:active, .aa-btn--warning.is-active { background: var(--color-button-warning-bg-active); color: var(--color-button-warning-text-active); }
+.aa-btn--outline { background: var(--color-button-outline-bg-default); color: var(--color-button-outline-text-default); border-color: var(--color-button-outline-border); }
+.aa-btn--outline:hover, .aa-btn--outline.is-hover { background: var(--color-button-outline-bg-hover); color: var(--color-button-outline-text-hover); }
+.aa-btn--outline:active, .aa-btn--outline.is-active { background: var(--color-button-outline-bg-active); color: var(--color-button-outline-text-active); }
+.aa-btn--text { background: transparent; color: var(--color-button-text-text-default); padding-left: 0; padding-right: 0; }
+.aa-btn--text:hover, .aa-btn--text.is-hover { color: var(--color-button-text-text-hover); }
+.aa-btn--text:active, .aa-btn--text.is-active { color: var(--color-button-text-text-active); font-weight: 700; }
+.aa-btn:disabled, .aa-btn.is-inactive { background: var(--color-button-disabled-bg); color: var(--color-button-disabled-text); border-color: transparent; cursor: not-allowed; }
+.aa-btn--text:disabled, .aa-btn--text.is-inactive { background: transparent; color: var(--color-button-text-text-disabled); }
+
+/* TextInput — Figma: msft_TextInput */
+.aa-field { display: flex; flex-direction: column; gap: var(--space-xs); font-family: var(--font-sans); min-width: 0; }
+.aa-field__label { font-size: 12px; line-height: 1.4; font-weight: 400; color: var(--color-text-placeholder); }
+.aa-field__control { font: inherit; font-size: 14px; line-height: 1.4; color: var(--color-text-default); background: var(--color-surface-primary-container);
+  border: 1px solid var(--color-border-primary); border-radius: var(--radius-s); padding: var(--space-s); width: 100%; box-sizing: border-box; }
+.aa-field__control::placeholder { color: var(--color-text-placeholder); }
+.aa-field__control--multi { min-height: 88px; resize: vertical; }
+.aa-field__control--bottom { border-width: 0 0 1px; border-radius: 0; }
+.aa-field__control--filled { background: var(--color-surface-primary); }
+.aa-field__control:focus { outline: none; border-color: var(--color-border-focus); box-shadow: 0 0 0 1px var(--color-border-focus); }
+.aa-field__control:disabled { background: var(--color-surface-primary); color: var(--color-text-disabled); border-color: var(--color-border-secondary); }
+.aa-field__help { font-size: 12px; line-height: 1.4; color: var(--color-text-placeholder); }
+.aa-field.is-error .aa-field__control { border-color: var(--color-border-error); }
+.aa-field.is-error .aa-field__help { color: var(--color-text-error-default); }
+.aa-field__wrap { position: relative; display: flex; }
+.aa-field__wrap .aa-field__control { padding-right: calc(var(--space-s) * 2 + 18px); }
+.aa-field__icon { position: absolute; right: var(--space-s); top: 50%; transform: translateY(-50%); display: inline-flex; align-items: center; justify-content: center;
+  width: 18px; height: 18px; box-sizing: border-box; color: var(--color-icon-primary); pointer-events: none; }
+.aa-field__wrap--multi .aa-field__icon { top: var(--space-s); transform: none; }
+.aa-field__icon--error { color: var(--color-icon-error); border: 1px solid var(--color-border-error); border-radius: var(--radius-full); }
+
+/* Chip — Figma: chips */
+.aa-chip { font-family: var(--font-sans); font-size: 14px; line-height: 1.4; font-weight: 700; color: var(--color-chip-text-default);
+  display: inline-flex; align-items: center; gap: var(--space-s); padding: var(--space-xs) var(--space-s);
+  border: 0; border-radius: var(--radius-xs); background: var(--color-chip-brand-bg-default); }
+button.aa-chip { cursor: pointer; }
+.aa-chip--neutral { background: var(--color-chip-neutral-bg-default); }
+.aa-chip--r-none { border-radius: 0; }
+.aa-chip--r-full { border-radius: var(--radius-full); }
+button.aa-chip--brand:hover { background: var(--color-chip-brand-bg-hover); }
+button.aa-chip--neutral:hover { background: var(--color-chip-neutral-bg-hover); }
+.aa-chip.is-selected.aa-chip--brand { background: var(--color-chip-brand-bg-active); }
+.aa-chip.is-selected.aa-chip--neutral { background: var(--color-chip-neutral-bg-active); }
+/* Figma Color=warning / error: drawn for the default state only, so hover and selected keep the same fill. */
+.aa-chip--warning { background: var(--color-chip-brand-bg-error); }
+.aa-chip--error { background: var(--color-chip-error-bg); color: var(--color-chip-error-text); }
+.aa-chip--error .aa-icon { color: var(--color-chip-error-icon); }
+.aa-chip.is-disabled { color: var(--color-chip-text-disabled); background: var(--color-chip-disabled-bg); }
+.aa-chip--error.is-disabled .aa-icon { color: inherit; }
+.aa-chip__remove { display: inline-flex; padding: 0; border: 0; background: none; color: inherit; cursor: pointer; border-radius: var(--radius-full); }
+.aa-chip:focus-visible, .aa-chip__remove:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+
+
+
+/* ===== parts: Icon */
+/* Icon — Figma icons section 145:746 */
+.aa-icon { display: block; flex: none; }
+
+/* ===== parts: Logo */
+/* Logo — Figma logo-Ambience (146:744 / 146:745) */
+.aa-logo { display: block; flex: none; max-width: 100%; height: auto; }
+
+/* ===== parts: Checkbox */
+/* Checkbox — Figma: msft_Checkbox (16:2514) */
+.aa-checkbox { position: relative; display: inline-flex; align-items: center; gap: var(--space-s);
+  font-family: var(--font-sans); font-size: 14px; line-height: 1.4; color: var(--color-text-default); cursor: pointer; vertical-align: middle; }
+.aa-checkbox__input { position: absolute; left: 0; top: 0; width: 40px; height: 40px; margin: 0; opacity: 0; cursor: inherit; }
+.aa-checkbox__box { box-sizing: border-box; flex: none; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  border: 1.5px solid var(--color-control-border-default); border-radius: 2px; background: transparent; color: var(--color-control-mark-default); transition: background-color .12s, border-color .12s; }
+.aa-checkbox:hover .aa-checkbox__box { background: var(--color-control-bg-hover); }
+.aa-checkbox__input:focus-visible + .aa-checkbox__box { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+/* Filled=yes */
+.aa-checkbox--filled .aa-checkbox__box { border-color: var(--color-control-border-selected); color: var(--color-control-mark-on-fill); }
+.aa-checkbox--filled:hover .aa-checkbox__box { background: var(--color-surface-secondary); }
+.aa-checkbox--filled.is-checked .aa-checkbox__box, .aa-checkbox--filled.is-indeterminate .aa-checkbox__box { background: var(--color-control-bg-selected); }
+.aa-checkbox--filled.is-checked:hover .aa-checkbox__box, .aa-checkbox--filled.is-indeterminate:hover .aa-checkbox__box { background: var(--color-action-primary-bg-hover); border-color: var(--color-action-primary-bg-hover); }
+/* valid=no */
+.aa-checkbox.is-invalid .aa-checkbox__box { border-color: var(--color-control-border-error); color: var(--color-control-border-error); }
+.aa-checkbox--filled.is-invalid .aa-checkbox__box { color: var(--color-control-mark-on-fill); }
+.aa-checkbox--filled.is-invalid:hover .aa-checkbox__box { background: var(--color-surface-error); }
+.aa-checkbox--filled.is-invalid.is-checked .aa-checkbox__box, .aa-checkbox--filled.is-invalid.is-indeterminate .aa-checkbox__box { background: var(--color-control-bg-error); border-color: var(--color-control-bg-error); }
+/* Active=Inactive */
+.aa-checkbox.is-disabled { cursor: not-allowed; color: var(--color-text-placeholder); }
+.aa-checkbox.is-disabled .aa-checkbox__box, .aa-checkbox.is-disabled:hover .aa-checkbox__box { background: transparent; border-color: var(--color-control-border-disabled); color: var(--color-control-mark-disabled); }
+.aa-checkbox--filled.is-disabled.is-checked .aa-checkbox__box, .aa-checkbox--filled.is-disabled.is-indeterminate .aa-checkbox__box { background: var(--color-action-disabled-bg); border-color: var(--color-action-disabled-bg); color: var(--color-control-mark-on-fill); }
+
+/* ===== parts: Radio */
+/* Radio — Figma: msft_Radio (16:2566) */
+.aa-radio-group { display: flex; flex-wrap: wrap; gap: var(--space-s) var(--space-l); }
+.aa-radio { position: relative; display: inline-flex; align-items: center; gap: var(--space-s);
+  font-family: var(--font-sans); font-size: 14px; line-height: 1.4; color: var(--color-text-default); cursor: pointer; vertical-align: middle; }
+.aa-radio__input { position: absolute; left: 0; top: 0; width: 40px; height: 40px; margin: 0; opacity: 0; cursor: inherit; }
+.aa-radio__circle { box-sizing: border-box; flex: none; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  border: 1.5px solid var(--color-control-border-default); border-radius: var(--radius-full); background: transparent; transition: background-color .12s, border-color .12s; }
+.aa-radio__dot { width: 16px; height: 16px; border-radius: var(--radius-full); background: var(--color-control-mark-default); transform: scale(0); transition: transform .12s; }
+.aa-radio.is-checked .aa-radio__dot { transform: scale(1); }
+.aa-radio:hover .aa-radio__circle { background: var(--color-control-bg-hover); }
+.aa-radio__input:focus-visible + .aa-radio__circle { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+/* Filled=yes */
+.aa-radio--filled .aa-radio__circle { border-color: var(--color-control-border-selected); }
+.aa-radio--filled .aa-radio__dot { background: var(--color-control-mark-on-fill); }
+.aa-radio--filled:hover .aa-radio__circle { background: var(--color-surface-secondary); }
+.aa-radio--filled.is-checked .aa-radio__circle { background: var(--color-control-bg-selected); }
+.aa-radio--filled.is-checked:hover .aa-radio__circle { background: var(--color-action-primary-bg-hover); border-color: var(--color-action-primary-bg-hover); }
+/* invalid (Figma inactive + filled row renders in error red) */
+.aa-radio.is-invalid .aa-radio__circle { border-color: var(--color-control-border-error); }
+.aa-radio.is-invalid .aa-radio__dot { background: var(--color-control-border-error); }
+.aa-radio--filled.is-invalid .aa-radio__dot { background: var(--color-control-mark-on-fill); }
+.aa-radio--filled.is-invalid:hover .aa-radio__circle { background: var(--color-surface-error); }
+.aa-radio--filled.is-invalid.is-checked .aa-radio__circle { background: var(--color-control-bg-error); border-color: var(--color-control-bg-error); }
+/* Active=inactive */
+.aa-radio.is-disabled { cursor: not-allowed; color: var(--color-text-placeholder); }
+.aa-radio.is-disabled .aa-radio__circle, .aa-radio.is-disabled:hover .aa-radio__circle { background: transparent; border-color: var(--color-control-border-disabled); }
+.aa-radio.is-disabled .aa-radio__dot { background: var(--color-control-mark-disabled); }
+.aa-radio--filled.is-disabled.is-checked .aa-radio__circle { background: var(--color-action-disabled-bg); border-color: var(--color-action-disabled-bg); }
+.aa-radio--filled.is-disabled .aa-radio__dot { background: var(--color-control-mark-on-fill); }
+
+/* ===== parts: Toggle */
+/* Toggle — Figma: msft_Toggle (17:3681), 56×32 */
+.aa-toggle { display: inline-flex; align-items: center; gap: var(--space-s); font-family: var(--font-sans); font-size: 14px; line-height: 1.4; color: var(--color-text-default); vertical-align: middle; }
+.aa-toggle__track { position: relative; box-sizing: border-box; flex: none; width: 56px; height: 32px; padding: 0; margin: 0; cursor: pointer;
+  border: 1.5px solid var(--color-control-track-border); border-radius: var(--radius-full); background: var(--color-control-track-off); transition: background-color .15s, border-color .15s; }
+.aa-toggle__knob { position: absolute; top: 50%; left: 3px; width: 24px; height: 24px; margin-top: -12px; border-radius: var(--radius-full);
+  background: var(--color-control-knob-off); transition: left .15s, background-color .15s; }
+.aa-toggle__track:hover { border-color: var(--color-control-knob-off); }
+.aa-toggle__track:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-toggle__track.is-on { background: var(--color-control-track-on); border-color: var(--color-control-track-on); }
+.aa-toggle__track.is-on:hover { background: var(--color-action-primary-bg-hover); border-color: var(--color-action-primary-bg-hover); }
+.aa-toggle__track.is-on .aa-toggle__knob { left: 26px; background: var(--color-control-knob-default); }
+.aa-toggle__label { cursor: pointer; }
+/* state=inactive */
+.aa-toggle.is-disabled { color: var(--color-text-placeholder); }
+.aa-toggle.is-disabled .aa-toggle__label { cursor: not-allowed; }
+.aa-toggle__track:disabled, .aa-toggle__track:disabled:hover { cursor: not-allowed; background: var(--color-control-track-disabled); border-color: var(--color-control-track-border-disabled); }
+.aa-toggle__track:disabled .aa-toggle__knob { background: var(--color-control-knob-disabled); }
+
+/* ===== parts: Slider */
+/* Slider — Figma: msft_slider (16:2595), 248×24, 4px track, 24px thumb */
+.aa-slider { --aa-slider-fill: var(--color-control-rail-fill-primary); --aa-slider-thumb: var(--color-control-thumb-primary); --aa-slider-thumb-border: var(--color-control-thumb-primary);
+  -webkit-appearance: none; appearance: none; display: block; width: 248px; max-width: 100%; height: 24px; margin: 0; padding: 0; background: transparent; cursor: pointer; }
+.aa-slider--secondary { --aa-slider-fill: var(--color-control-rail-fill-secondary); --aa-slider-thumb: var(--color-control-thumb-secondary); --aa-slider-thumb-border: var(--color-control-thumb-secondary); }
+.aa-slider--outline { --aa-slider-thumb: var(--color-control-knob-default); }
+.aa-slider.is-disabled, .aa-slider:disabled { --aa-slider-fill: var(--color-control-rail); --aa-slider-thumb: var(--color-control-thumb-disabled); --aa-slider-thumb-border: var(--color-control-thumb-disabled); cursor: not-allowed; }
+.aa-slider::-webkit-slider-runnable-track { height: 4px; border-radius: var(--radius-full);
+  background: linear-gradient(to right, var(--aa-slider-fill) 0 var(--aa-slider-pct, 0%), var(--color-control-rail) var(--aa-slider-pct, 0%) 100%); }
+.aa-slider::-moz-range-track { height: 4px; border-radius: var(--radius-full); background: var(--color-control-rail); }
+.aa-slider::-moz-range-progress { height: 4px; border-radius: var(--radius-full); background: var(--aa-slider-fill); }
+.aa-slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; box-sizing: border-box; width: 24px; height: 24px; margin-top: -10px;
+  border-radius: var(--radius-full); background: var(--aa-slider-thumb); border: 2px solid var(--aa-slider-thumb-border); box-shadow: var(--shadow-20); transition: transform .12s; }
+.aa-slider::-moz-range-thumb { box-sizing: border-box; width: 24px; height: 24px; border-radius: var(--radius-full);
+  background: var(--aa-slider-thumb); border: 2px solid var(--aa-slider-thumb-border); box-shadow: var(--shadow-20); }
+.aa-slider:not(:disabled):hover::-webkit-slider-thumb { transform: scale(1.08); }
+.aa-slider--secondary:not(:disabled):active::-webkit-slider-thumb { background: var(--color-action-secondary-bg-hover); border-color: var(--color-action-secondary-bg-hover); }
+.aa-slider--secondary:not(:disabled):active::-moz-range-thumb { background: var(--color-action-secondary-bg-hover); border-color: var(--color-action-secondary-bg-hover); }
+.aa-slider:focus-visible { outline: none; }
+.aa-slider:focus-visible::-webkit-slider-thumb { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-slider:focus-visible::-moz-range-thumb { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+
+/* ===== parts: Snackbar */
+/* Snackbar — Figma: inputs section 145:751, frames 17:3866…17:3982 */
+.aa-snackbar { font-family: var(--font-sans); box-sizing: border-box; width: 100%; max-width: 342px;
+  display: flex; flex-direction: column; justify-content: center; gap: var(--space-s);
+  padding: var(--space-m); background: var(--color-surface-secondary-container); color: var(--color-text-on-dark); }
+.aa-snackbar__top { display: flex; align-items: center; gap: var(--space-s); min-width: 0; }
+.aa-snackbar--stacked .aa-snackbar__top { align-items: flex-start; }
+.aa-snackbar__message { flex: 1 1 0; min-width: 0; margin: 0; font-size: 14px; line-height: 1.4; font-weight: 400; overflow-wrap: break-word; }
+.aa-snackbar--inline .aa-snackbar__top:has(.aa-snackbar__close, .aa-snackbar__action) .aa-snackbar__message { padding: 10px 0; }
+.aa-snackbar__close { flex: none; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  padding: 0; border: 0; background: none; color: inherit; cursor: pointer; border-radius: var(--radius-full); }
+.aa-snackbar__close:hover { background: var(--color-surface-neutral-strong); }
+.aa-snackbar__actions { display: flex; gap: var(--space-s); }
+.aa-snackbar__action { flex: none; font: inherit; font-size: 16px; line-height: 1.4; min-height: 40px; padding: 0 var(--space-s);
+  border: 0; border-radius: var(--radius-full); background: transparent; color: var(--color-text-on-dark); cursor: pointer; white-space: nowrap; }
+.aa-snackbar__action:hover { color: var(--color-text-accent); }
+.aa-snackbar__action:active { font-weight: 700; }
+.aa-snackbar__close:focus-visible, .aa-snackbar__action:focus-visible { outline: 2px solid var(--color-border-accent); outline-offset: 2px; }
+
+/* ===== parts: Label */
+/* Label — Figma: msft_Label 17:2629 */
+.aa-label { font-family: var(--font-sans); font-size: 16px; line-height: 1.4; font-weight: 700; color: var(--color-text-default);
+  display: inline-flex; align-items: center; justify-content: center; padding: 0 var(--space-s); white-space: nowrap; }
+.aa-label__req { color: var(--color-text-error-default); }
+
+/* ===== parts: FieldLabel */
+/* FieldLabel — Figma: msft_FieldLabel 303:1445 */
+.aa-fieldlabel { font-family: var(--font-sans); font-size: 14px; line-height: 1.4; font-weight: 700; color: var(--color-text-muted);
+  display: inline-flex; align-items: center; gap: var(--space-xs); padding: var(--space-s) 0 9px; }
+.aa-fieldlabel__req { color: var(--color-text-error-default); }
+
+/* ===== parts: Dropdown */
+/* Dropdown — Figma: msft_Dropdown 17:3828 */
+.aa-dropdown { font-family: var(--font-sans); display: flex; flex-direction: column; gap: var(--space-xs); min-width: 0; }
+.aa-dropdown__label { font-size: 12px; line-height: 1.4; font-weight: 400; color: var(--color-text-placeholder); }
+.aa-dropdown__box { position: relative; display: flex; }
+.aa-dropdown__control { font: inherit; font-size: 14px; line-height: 1.4; color: var(--color-text-default); width: 100%; box-sizing: border-box; margin: 0;
+  -webkit-appearance: none; appearance: none; cursor: pointer; background: var(--color-surface-primary-container);
+  padding: var(--space-s) calc(var(--space-s) + 18px + var(--space-s)) var(--space-s) var(--space-s);
+  border: 1px solid var(--color-border-strong); border-radius: var(--radius-s); }
+.aa-dropdown--bottom .aa-dropdown__control { border-width: 0 0 1px; border-radius: 0; background: transparent; }
+.aa-dropdown--filled .aa-dropdown__control { background: var(--color-surface-primary); border-radius: var(--radius-s); }
+.aa-dropdown__control.is-empty { color: var(--color-text-placeholder); }
+.aa-dropdown__control option { color: var(--color-text-default); }
+.aa-dropdown__chevron { position: absolute; right: var(--space-s); top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--color-icon-primary); display: flex; }
+.aa-dropdown__control:hover { border-color: var(--color-border-hover); }
+.aa-dropdown__control:focus { outline: none; border-color: var(--color-border-focus); box-shadow: 0 0 0 1px var(--color-border-focus); }
+.aa-dropdown--bottom .aa-dropdown__control:focus { box-shadow: 0 1px 0 0 var(--color-border-focus); }
+.aa-dropdown__help { font-size: 12px; line-height: 1.4; color: var(--color-text-placeholder); }
+.aa-dropdown.is-disabled .aa-dropdown__control { color: var(--color-text-disabled); border-color: var(--color-border-primary); cursor: not-allowed; }
+.aa-dropdown.is-disabled .aa-dropdown__chevron, .aa-dropdown.is-disabled .aa-dropdown__help { color: var(--color-text-disabled); }
+.aa-dropdown.is-error .aa-dropdown__control { border-color: var(--color-border-error); }
+.aa-dropdown.is-error .aa-dropdown__help { color: var(--color-text-error-default); }
+
+/* ===== parts: SearchInput */
+/* SearchInput — Figma: msft_SearchInput 17:2810 */
+.aa-search { font-family: var(--font-sans); box-sizing: border-box; display: flex; align-items: center; gap: var(--space-s);
+  min-width: 0; padding: var(--space-s); background: var(--color-surface-primary-container); color: var(--color-text-default);
+  border: 1px solid var(--color-border-primary); border-radius: var(--radius-s); transition: border-color .12s; }
+.aa-search--bottom { border-width: 0 0 1px; border-radius: 0; background: transparent; }
+.aa-search.is-filled, .aa-search:focus-within { border-color: var(--color-border-strong); }
+.aa-search:focus-within { box-shadow: 0 0 0 1px var(--color-border-focus); border-color: var(--color-border-focus); }
+.aa-search--bottom:focus-within { box-shadow: 0 1px 0 0 var(--color-border-focus); }
+.aa-search__control { flex: 1 1 0; min-width: 0; font: inherit; font-size: 14px; line-height: 1.4; color: var(--color-text-default);
+  border: 0; padding: 0; margin: 0; background: transparent; outline: none; -webkit-appearance: none; appearance: none; }
+.aa-search__control::placeholder { color: var(--color-text-placeholder); }
+.aa-search__control::-webkit-search-cancel-button, .aa-search__control::-webkit-search-decoration { -webkit-appearance: none; display: none; }
+.aa-search__icon { display: flex; color: var(--color-icon-primary); }
+.aa-search__btn { flex: none; display: inline-flex; align-items: center; justify-content: center; padding: 0; margin: 0;
+  border: 0; background: none; color: var(--color-icon-primary); cursor: pointer; border-radius: var(--radius-full); }
+.aa-search__btn:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-search__clear:disabled { cursor: default; }
+.aa-search.is-disabled { background: var(--color-surface-primary); border-color: var(--color-border-secondary); border-radius: var(--radius-s); box-shadow: none; }
+.aa-search.is-disabled .aa-search__control, .aa-search.is-disabled .aa-search__control::placeholder,
+.aa-search.is-disabled .aa-search__icon, .aa-search.is-disabled .aa-search__btn { color: var(--color-icon-inactive); cursor: not-allowed; }
+
+/* ===== parts: Table */
+/* Table — Figma: table header 29:1648, table body 29:1643, rows 29:1708 / 29:1709 */
+.aa-table-wrap { width: 100%; overflow-x: auto; }
+.aa-table { font-family: var(--font-sans); border-collapse: collapse; width: 100%; font-size: 14px; line-height: 1.4; color: var(--color-text-default); }
+.aa-table__caption { text-align: left; font-size: 16px; font-weight: 700; color: var(--color-text-default); padding: 0 0 var(--space-s); }
+.aa-table thead tr, .aa-table tbody tr { border-bottom: 1px solid var(--color-border-strong); }
+.aa-table__th { padding: 0; text-align: left; font-weight: 700; vertical-align: middle; }
+.aa-table__hbtn { font: inherit; color: inherit; text-align: inherit; display: flex; align-items: center; gap: var(--space-s);
+  width: 100%; min-height: 56px; box-sizing: border-box; padding: var(--space-s) var(--space-m); margin: 0; border: 0; background: none; }
+button.aa-table__hbtn { cursor: pointer; }
+button.aa-table__hbtn:hover { background: var(--color-control-bg-hover); }
+button.aa-table__hbtn:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+.aa-table__htext { flex: 1 1 0; min-width: 0; }
+.aa-table__sort { display: flex; flex: none; transition: transform .12s; }
+.aa-table__sort.is-asc { transform: rotate(180deg); }
+.aa-table__sort.is-idle { color: var(--color-icon-placeholder); }
+.aa-table__td { padding: var(--space-s) var(--space-m); height: 48px; box-sizing: border-box; font-weight: 400; vertical-align: middle; }
+.aa-table .is-muted, .aa-table tr.is-muted .aa-table__td { color: var(--color-text-placeholder); }
+.aa-table .is-right { text-align: right; }
+.aa-table .is-center { text-align: center; }
+.aa-table__sel { width: 40px; padding: 0 var(--space-s); box-sizing: border-box; text-align: center; vertical-align: middle; }
+.aa-table__check { width: 18px; height: 18px; margin: 0; accent-color: var(--color-control-bg-selected); cursor: pointer; }
+.aa-table__check:disabled { cursor: not-allowed; }
+.aa-table tbody tr.is-selected { background: var(--color-surface-secondary); }
+.aa-table--clickable tbody tr { cursor: pointer; }
+.aa-table--clickable tbody tr:hover { background: var(--color-control-bg-hover); }
+.aa-table__empty { padding: var(--space-l) var(--space-m); text-align: center; color: var(--color-text-placeholder); }
+
+/* ===== parts: Header */
+/* Header — Figma 20:943 */
+.aa-header { font-family: var(--font-sans); background: var(--color-surface-secondary-container); color: var(--color-text-on-dark);
+  display: flex; align-items: center; justify-content: space-between; gap: var(--space-m);
+  min-height: 70px; padding: var(--space-s) var(--space-l); box-sizing: border-box; position: relative; }
+.aa-header__logo { display: flex; align-items: center; flex: 1 1 0; min-width: 0; }
+.aa-header__logo-text { color: var(--color-text-accent); font-weight: 700; font-size: 24px; line-height: 1.4; }
+.aa-header__title { margin: 0; font-size: 20px; line-height: 1.4; font-weight: 700; text-align: center; white-space: nowrap; color: var(--color-text-on-dark); }
+.aa-header__actions { flex: 1 1 0; display: flex; justify-content: flex-end; align-items: center; gap: var(--space-s); position: relative; }
+.aa-header__menu { font-family: inherit; font-size: 14px; line-height: 1.4; font-weight: 700; color: var(--color-text-on-dark);
+  display: inline-flex; align-items: center; gap: var(--space-s); padding: var(--space-s) var(--space-m);
+  background: transparent; border: 1px solid var(--color-border-on-dark); border-radius: 0; cursor: pointer; }
+.aa-header__menu:hover, .aa-header__menu.is-open { background: var(--color-surface-secondary-container-hover); }
+.aa-header__menu:focus-visible { outline: 2px solid var(--color-border-accent); outline-offset: 2px; }
+.aa-header__popover { position: absolute; top: calc(100% + var(--space-xs)); right: 0; z-index: 10; }
+
+/* ===== parts: MenuItem */
+/* MenuItem — Figma 20:1022 (State=Default/hover/Active, menu-item-sm-*) */
+.aa-menu-item { font-family: var(--font-sans); font-size: 12px; line-height: 1.4; font-weight: 400;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-s);
+  box-sizing: border-box; margin: 0; border: 0; border-radius: 0; cursor: pointer;
+  background: var(--color-surface-secondary-container); color: var(--color-text-on-dark); text-align: center; transition: color .12s, background-color .12s; }
+.aa-menu-item--md { width: 104px; height: 80px; padding: var(--space-s); }
+.aa-menu-item--sm { width: 40px; height: 40px; padding: var(--space-s); }
+.aa-menu-item__icon { display: flex; width: 24px; height: 24px; align-items: center; justify-content: center; }
+.aa-menu-item__label { display: block; width: 100%; overflow-wrap: anywhere; }
+.aa-menu-item:hover, .aa-menu-item.is-hover { color: var(--color-text-accent); }
+.aa-menu-item.is-active { background: var(--color-surface-secondary-container-hover); color: var(--color-text-accent); }
+.aa-menu-item:focus-visible { outline: 2px solid var(--color-border-accent); outline-offset: -2px; }
+
+/* ===== parts: SubmenuItem */
+/* SubmenuItem — Figma 20:1038 (Default/Hover, submenu-item-sm-*) */
+.aa-submenu-item { font-family: var(--font-sans); font-size: 12px; line-height: 1.4; font-weight: 400;
+  display: flex; align-items: center; box-sizing: border-box; width: 198px; min-height: 40px;
+  margin: 0; padding: var(--space-s) var(--space-m); border: 0; border-radius: 0; cursor: pointer;
+  background: var(--color-surface-secondary-container-hover); color: var(--color-text-on-dark); text-align: left; transition: color .12s; }
+.aa-submenu-item--md { height: 80px; }
+.aa-submenu-item__label { flex: 1 1 0; min-width: 0; overflow-wrap: anywhere; }
+.aa-submenu-item:hover, .aa-submenu-item.is-hover, .aa-submenu-item.is-active { color: var(--color-text-accent); }
+.aa-submenu-item:focus-visible { outline: 2px solid var(--color-border-accent); outline-offset: -2px; }
+
+/* ===== parts: SideNav */
+/* SideNav — Figma 20:973 rail + 20:1043–20:1045 flyout */
+.aa-sidenav { font-family: var(--font-sans); background: var(--color-surface-secondary-container); color: var(--color-text-on-dark);
+  display: inline-flex; flex-direction: column; align-items: center; gap: var(--space-m);
+  padding: var(--space-l) 0; box-sizing: border-box; position: relative; }
+.aa-sidenav--md { width: 104px; }
+.aa-sidenav--sm { width: 40px; }
+.aa-sidenav__logo { display: flex; align-items: center; justify-content: center; min-height: 40px; }
+.aa-sidenav__logo-text { color: var(--color-text-accent); font-weight: 700; font-size: 28px; line-height: 1.4; }
+.aa-sidenav__list, .aa-sidenav__flyout { list-style: none; margin: 0; padding: 0; }
+.aa-sidenav__list { display: flex; flex-direction: column; }
+.aa-sidenav__entry { position: relative; }
+.aa-sidenav__flyout { position: absolute; top: 0; left: 100%; z-index: 20; display: flex; flex-direction: column; }
+
+/* ===== parts: MenuDropdown */
+/* MenuDropdown — Figma 20:956 */
+.aa-menu-dropdown { font-family: var(--font-sans); background: var(--color-surface-primary-container); display: inline-flex; flex-direction: column;
+  min-width: 145px; box-shadow: var(--shadow-160-double); }
+.aa-menu-dropdown__item { font-family: inherit; font-size: 16px; line-height: 1.4; font-weight: 400; color: var(--color-text-default);
+  display: flex; align-items: center; gap: var(--space-s); width: 100%; box-sizing: border-box;
+  padding: var(--space-m); margin: 0; background: var(--color-surface-primary-container); border: 0; border-bottom: 2px solid transparent;
+  border-radius: 0; cursor: pointer; text-align: left; white-space: nowrap; }
+.aa-menu-dropdown__icon { display: flex; width: 24px; height: 24px; align-items: center; justify-content: center; }
+.aa-menu-dropdown__item:hover { background: var(--color-surface-secondary); }
+.aa-menu-dropdown__item.is-active { color: var(--color-text-accent); font-weight: 700; border-bottom-color: var(--color-border-accent); }
+.aa-menu-dropdown__item:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+.aa-menu-dropdown__item:disabled { color: var(--color-text-placeholder); cursor: default; background: var(--color-surface-primary-container); }
+
+/* ===== parts: DropdownItem */
+/* DropdownItem — Figma 20:950 */
+.aa-dropdown-item { font-family: var(--font-sans); display: inline-flex; flex-direction: column; min-width: 155px;
+  box-shadow: var(--shadow-40); }
+.aa-dropdown-item__list { list-style: none; margin: 0; padding: 0; }
+.aa-dropdown-item__header, .aa-dropdown-item__row { font-family: inherit; font-size: 14px; line-height: 1.4; color: var(--color-text-default);
+  display: flex; align-items: center; box-sizing: border-box; width: 100%;
+  padding: var(--space-m) var(--space-s); margin: 0; background: var(--color-surface-primary-container);
+  border: 0; border-bottom: 1px solid var(--color-border-strong); border-radius: 0; text-align: left; }
+.aa-dropdown-item__header { font-weight: 700; }
+.aa-dropdown-item__row { font-weight: 400; cursor: pointer; }
+.aa-dropdown-item__row:hover { background: var(--color-surface-secondary); }
+.aa-dropdown-item__row.is-selected { background: var(--color-surface-accent); }
+.aa-dropdown-item__row:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+.aa-dropdown-item__row:disabled { color: var(--color-text-placeholder); cursor: default; background: var(--color-surface-primary-container); }
+
+/* ===== parts: HistoryCard */
+/* HistoryCard — Figma: History Card (20:426) */
+.aa-historycard { font-family: var(--font-sans); font-size: 14px; line-height: 1.4; color: var(--color-text-default);
+  display: flex; flex-direction: column; gap: var(--space-s); padding: var(--space-s) var(--space-m);
+  background: var(--color-surface-primary-container); border-bottom: 2px solid var(--color-border-strong); box-sizing: border-box; transition: box-shadow .12s; }
+.aa-historycard:not(.aa-historycard--edit):hover,
+.aa-historycard:not(.aa-historycard--edit):focus-within, .aa-historycard.is-hover { box-shadow: var(--shadow-80-double); position: relative; z-index: 1; }
+.aa-historycard:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-historycard__row { display: flex; gap: var(--space-m); align-items: flex-start; }
+.aa-historycard__field { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: var(--space-xs); }
+.aa-historycard__label { font-weight: 700; color: var(--color-text-placeholder); padding: var(--space-xs) var(--space-s); }
+.aa-historycard__label--note { padding: var(--space-s); }
+.aa-historycard__value { padding: var(--space-xs) var(--space-s); overflow-wrap: anywhere; }
+.aa-historycard__note { display: flex; flex-direction: column; }
+.aa-historycard__comment-text { margin: 0; padding: var(--space-s); }
+.aa-historycard__tools { display: flex; flex: none; min-width: 80px; justify-content: flex-end; opacity: 0; transition: opacity .12s; }
+.aa-historycard:hover .aa-historycard__tools, .aa-historycard:focus-within .aa-historycard__tools, .aa-historycard.is-hover .aa-historycard__tools { opacity: 1; }
+.aa-historycard__tool { width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  padding: 0; border: 0; background: none; color: var(--color-icon-primary); cursor: pointer; border-radius: var(--radius-s); }
+.aa-historycard__tool:hover { background: var(--color-surface-primary); }
+.aa-historycard__tool:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+
+/* Edit */
+.aa-historycard--edit { padding: var(--space-m); }
+.aa-historycard__col { flex: 1 1 0; min-width: 0; }
+.aa-historycard__contact { display: flex; gap: var(--space-s); align-items: flex-end; }
+.aa-historycard__contact > .aa-field { flex: 1 1 0; min-width: 0; }
+.aa-historycard__add { width: 40px; padding: 0; flex: none; }
+.aa-historycard .aa-field__label { font-size: 14px; font-weight: 700; padding: var(--space-xs) var(--space-s); }
+.aa-historycard__comment .aa-field__label { padding: var(--space-s); }
+.aa-historycard .aa-field__control { height: 40px; border-color: var(--color-border-strong); }
+.aa-historycard .aa-field__control:focus { border-color: var(--color-border-focus); }
+.aa-historycard__comment .aa-field__control { height: auto; min-height: 109px; }
+.aa-historycard__select { position: relative; }
+.aa-historycard__select select { appearance: none; -webkit-appearance: none; padding-right: 40px; cursor: pointer; }
+.aa-historycard__select select.is-empty { color: var(--color-text-placeholder); }
+.aa-historycard__select .aa-icon { position: absolute; right: var(--space-s); top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--color-icon-primary); }
+.aa-historycard__actions { display: flex; justify-content: flex-end; gap: var(--space-s); }
+
+/* ===== parts: ContactCard */
+/* ContactCard — Figma: Contact Card (20:507) */
+.aa-contactcard { font-family: var(--font-sans); font-size: 14px; line-height: 1.4; color: var(--color-text-default);
+  display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-m);
+  padding: var(--space-s) 0; background: var(--color-surface-primary-container); border-bottom: 1px solid var(--color-border-strong); box-sizing: border-box; transition: box-shadow .12s; }
+.aa-contactcard:not(.aa-contactcard--edit):hover,
+.aa-contactcard:not(.aa-contactcard--edit):focus-within,
+.aa-contactcard.is-hover { box-shadow: var(--shadow-60); position: relative; z-index: 1; }
+.aa-contactcard__fields { display: flex; flex-wrap: wrap; gap: var(--space-m); margin: 0; min-width: 0; }
+.aa-contactcard__field { display: flex; flex-direction: column; gap: var(--space-xs); min-width: 0; }
+.aa-contactcard__label { font-weight: 700; color: var(--color-text-placeholder); padding: var(--space-xs) var(--space-s); }
+.aa-contactcard__value { margin: 0; padding: var(--space-xs) var(--space-s); white-space: nowrap; }
+.aa-contactcard__value a { color: inherit; text-decoration: none; }
+.aa-contactcard__value a:hover { text-decoration: underline; }
+.aa-contactcard__tools { display: flex; flex: none; opacity: 0; transition: opacity .12s; }
+.aa-contactcard:hover .aa-contactcard__tools, .aa-contactcard:focus-within .aa-contactcard__tools, .aa-contactcard.is-hover .aa-contactcard__tools { opacity: 1; }
+.aa-contactcard__tool { width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  padding: 0; border: 0; background: none; color: var(--color-icon-primary); cursor: pointer; border-radius: var(--radius-s); }
+.aa-contactcard__tool:hover { background: var(--color-surface-primary); }
+.aa-contactcard__tool:focus-visible, .aa-contactcard__value a:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+
+/* Edit */
+.aa-contactcard--edit { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: var(--space-m);
+  padding: var(--space-s) 0 var(--space-m); border-bottom: 0; }
+.aa-contactcard__row { display: flex; gap: var(--space-m); }
+.aa-contactcard__col { flex: 1 1 0; min-width: 0; }
+.aa-contactcard .aa-field__label { font-size: 14px; font-weight: 700; padding: var(--space-xs) var(--space-s); }
+.aa-contactcard .aa-field__control { height: 40px; border-color: var(--color-border-strong); }
+.aa-contactcard .aa-field__control:focus { border-color: var(--color-border-focus); }
+.aa-contactcard__actions { display: flex; justify-content: flex-end; gap: var(--space-s); }
+@media (max-width: 600px) { .aa-contactcard__row { flex-wrap: wrap; } .aa-contactcard__col { flex-basis: 40%; } }
+
+/* ===== parts: CompanyCard */
+/* CompanyCard — Figma: Company card (20:598) */
+.aa-companycard { font-family: var(--font-sans); font-size: 14px; line-height: 1.4; color: var(--color-text-default);
+  display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-xs);
+  padding: var(--space-s) var(--space-m); background: var(--color-surface-primary-container); border-bottom: 1px solid var(--color-border-strong);
+  box-sizing: border-box; transition: box-shadow .12s, background-color .12s; }
+.aa-companycard:not(.aa-companycard--edit):hover,
+.aa-companycard:not(.aa-companycard--edit):focus-within,
+.aa-companycard.is-hover { box-shadow: var(--shadow-60); position: relative; z-index: 1; }
+.aa-companycard.is-active { background: var(--color-surface-selected); box-shadow: var(--shadow-60); }
+.aa-companycard__main { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-xs);
+  font: inherit; color: inherit; text-align: left; background: none; border: 0; padding: 0; }
+button.aa-companycard__main { cursor: pointer; }
+button.aa-companycard__main:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-companycard__name { font-weight: 700; }
+.aa-companycard__category-text { color: var(--color-text-muted); }
+.aa-companycard__meta { display: flex; gap: var(--space-s); line-height: normal; }
+.aa-companycard__status { font-weight: 700; color: var(--color-text-muted); }
+.aa-companycard__tools { display: flex; flex: none; opacity: 0; transition: opacity .12s; }
+.aa-companycard:hover .aa-companycard__tools, .aa-companycard:focus-within .aa-companycard__tools,
+.aa-companycard.is-hover .aa-companycard__tools, .aa-companycard.is-active .aa-companycard__tools { opacity: 1; }
+.aa-companycard__tool { width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  padding: 0; border: 0; background: none; color: var(--color-icon-primary); cursor: pointer; border-radius: var(--radius-s); }
+.aa-companycard__tool:hover { background: var(--color-surface-primary); }
+.aa-companycard__tool:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+
+/* Edit */
+.aa-companycard--edit { flex-direction: column; align-items: stretch; justify-content: flex-start; }
+.aa-companycard .aa-field__label { font-size: 14px; font-weight: 700; color: var(--color-text-default); }
+.aa-companycard__category .aa-field__label { font-weight: 400; color: var(--color-text-muted); }
+.aa-companycard .aa-field__control { height: 40px; border-color: var(--color-border-strong); }
+.aa-companycard .aa-field__control:focus { border-color: var(--color-border-focus); }
+.aa-companycard__select { position: relative; }
+.aa-companycard__select select { appearance: none; -webkit-appearance: none; padding-right: 40px; cursor: pointer; }
+.aa-companycard__select select.is-empty { color: var(--color-text-placeholder); }
+.aa-companycard__select .aa-icon { position: absolute; right: var(--space-s); top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--color-icon-primary); }
+.aa-companycard__actions { display: flex; justify-content: flex-end; gap: var(--space-s); margin-top: var(--space-xs); }
+
+/* ===== parts: EntranceCard */
+/* EntranceCard — Figma: Entrance card (20:860) */
+.aa-entrancecard { position: relative; font-family: var(--font-sans); font-size: 14px; line-height: normal; color: var(--color-text-default);
+  display: flex; flex-direction: column; gap: var(--space-s); padding: var(--space-s) var(--space-m);
+  background: var(--color-surface-primary-container); border-bottom: 1px solid var(--color-border-strong); box-sizing: border-box; }
+.aa-entrancecard__top, .aa-entrancecard__bottom { display: flex; align-items: center; justify-content: space-between; gap: var(--space-m); }
+.aa-entrancecard__bottom { min-height: 40px; }
+.aa-entrancecard__who { display: inline-flex; align-items: center; gap: var(--space-s); color: var(--color-text-default); min-width: 0; }
+.aa-entrancecard__name { font-size: 20px; font-weight: 400; line-height: 1.1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.aa-entrancecard__details { display: flex; align-items: center; gap: var(--space-m); flex-wrap: wrap; min-width: 0; }
+.aa-entrancecard__meta { display: inline-flex; align-items: center; gap: var(--space-s); white-space: nowrap; }
+.aa-entrancecard__info { display: inline-flex; padding: 0; border: 0; background: none; color: var(--color-icon-primary); border-radius: var(--radius-full); }
+button.aa-entrancecard__info { cursor: pointer; }
+button.aa-entrancecard__info:hover { color: var(--color-icon-accent-hover); }
+button.aa-entrancecard__info:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-entrancecard__sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.aa-entrancecard__exit.aa-btn { flex: none; font-weight: 700; color: var(--color-button-error-text-default); background: var(--color-button-error-bg-default); }
+.aa-entrancecard__exit.aa-btn:hover { background: var(--color-button-error-bg-hover); }
+.aa-entrancecard__exit.aa-btn:active { background: var(--color-button-error-bg-active); }
+.aa-entrancecard__exit.aa-btn:disabled { background: var(--color-button-disabled-bg); color: var(--color-button-disabled-text); }
+
+/* ===== parts: DayCard */
+/* DayCard — Figma: Month-Calendar date (20:646) */
+.aa-daycard { position: relative; font-family: var(--font-sans); color: var(--color-text-default); width: 100%; max-width: 188px; height: 108px;
+  background: var(--color-surface-primary-container); border-bottom: 2px solid var(--color-border-strong); box-sizing: border-box; transition: background-color .12s; }
+.aa-daycard.is-highlighted { background: var(--color-surface-accent); }
+.aa-daycard__main { display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: var(--space-xs);
+  width: 100%; height: 100%; padding: var(--space-s); box-sizing: border-box; font: inherit; color: inherit; background: none; border: 0; text-align: center; }
+button.aa-daycard__main { cursor: pointer; }
+button.aa-daycard__main:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+.aa-daycard__day { width: 100%; font-size: 16px; line-height: 1.4; font-weight: 700; }
+.aa-daycard__names { flex: 1 1 0; min-height: 0; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
+.aa-daycard__name { max-width: 100%; font-size: 12px; line-height: 1.4; color: var(--color-text-subtle); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.aa-daycard__more { width: 100%; padding: 2px 0; font-size: 10px; line-height: normal; background: var(--color-surface-highlight); color: var(--color-text-on-light); }
+.aa-daycard__more--empty { visibility: hidden; }
+.aa-daycard__edit { position: absolute; top: var(--space-s); right: var(--space-m); width: 24px; height: 24px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center; border: 0; background: none; color: var(--color-icon-primary);
+  cursor: pointer; border-radius: var(--radius-xs); opacity: 0; transition: opacity .12s; }
+.aa-daycard:hover .aa-daycard__edit, .aa-daycard:focus-within .aa-daycard__edit, .aa-daycard.is-hover .aa-daycard__edit { opacity: 1; }
+.aa-daycard__edit:hover { color: var(--color-icon-accent-hover); }
+.aa-daycard__edit:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+
+/* ===== parts: ConfirmationDialog */
+/* ConfirmationDialog — Figma: confirmation (20:1612) */
+.aa-confirm { font-family: var(--font-sans); box-sizing: border-box; width: 342px; max-width: 100%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-xl);
+  padding: var(--space-l); border-radius: var(--radius-m); overflow: hidden;
+  box-shadow: var(--shadow-120-double); }
+.aa-confirm--dark { background: var(--color-surface-secondary-container); color: var(--color-text-on-dark); }
+.aa-confirm--light { background: var(--color-surface-primary-container); color: var(--color-text-default); }
+.aa-confirm__icon { display: flex; padding: var(--space-s); border-radius: var(--radius-full); background: var(--color-accent-primary); color: var(--color-icon-on-light); }
+.aa-confirm__message { margin: 0; max-width: 219px; text-align: center; font-size: 16px; line-height: 1.4; font-weight: 700; color: inherit; overflow-wrap: anywhere; }
+.aa-confirm__actions { display: flex; gap: var(--space-m); width: 100%; }
+.aa-confirm__btn { flex: 1 1 0; min-width: 0; font-weight: 700; }
+
+/* ===== parts: Modal */
+/* Modal — Figma: Add certificate type (20:1621), New Customer (20:1630) */
+.aa-modal { font-family: var(--font-sans); box-sizing: border-box; max-width: 100%; display: flex; flex-direction: column;
+  background: var(--color-surface-primary-container); color: var(--color-text-default); border-radius: var(--radius-m); overflow: hidden;
+  box-shadow: var(--shadow-160-double); }
+.aa-modal--sm { width: 302px; gap: var(--space-m); }
+.aa-modal--lg { width: 861px; box-shadow: var(--shadow-120-double); }
+.aa-modal__header { display: flex; align-items: center; justify-content: space-between; gap: var(--space-s);
+  padding: var(--space-m); background: var(--color-surface-secondary-container); color: var(--color-text-on-dark); }
+.aa-modal__title { margin: 0; font-size: 16px; line-height: 1.4; font-weight: 700; color: inherit; }
+.aa-modal__close { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; flex: none;
+  padding: 0; border: 0; border-radius: var(--radius-s); background: transparent; color: inherit; cursor: pointer; }
+.aa-modal__close:hover { background: var(--color-surface-secondary-container-hover); }
+.aa-modal__close:active { background: var(--color-surface-neutral-strong); }
+.aa-modal__close:focus-visible { outline: 2px solid var(--color-border-accent); outline-offset: 0; }
+.aa-modal__body { display: flex; flex-direction: column; gap: var(--space-m); padding: var(--space-m); }
+.aa-modal--lg .aa-modal__body { padding: var(--space-l) var(--space-l) var(--space-m); gap: var(--space-l); }
+.aa-modal__footer { display: flex; gap: var(--space-m); padding: var(--space-m); }
+.aa-modal--lg .aa-modal__footer { padding: 0 var(--space-l) var(--space-l); }
+.aa-modal__footer--end { justify-content: flex-end; }
+.aa-modal__footer--stretch > * { flex: 1 1 0; }
+.aa-modal__footer .aa-btn { font-weight: 700; }
+.aa-modal--lg .aa-modal__footer--end .aa-btn { min-width: 190px; }
+
+/* ===== parts: StatusBadge */
+/* StatusBadge — Figma: calendar cards (29:1579) "Label" pill */
+.aa-badge { font-family: var(--font-sans); display: inline-flex; align-items: center; justify-content: center; flex: none;
+  padding: var(--space-xs) var(--space-m); border-radius: var(--radius-full);
+  font-size: 12px; line-height: 1.4; font-weight: 700; white-space: nowrap; color: var(--color-text-on-dark); background: var(--color-surface-secondary-container); }
+.aa-badge--expiring { background: var(--color-surface-warning-strong); color: var(--color-text-on-light); }
+.aa-badge--passed { background: var(--color-accent-primary); color: var(--color-text-on-light); }
+.aa-badge--failed { background: var(--color-accent-error); color: var(--color-text-on-light); }
+
+/* ===== parts: CertificationRow */
+/* CertificationRow — Figma: calendar cards (29:1580 / 29:1592 / 29:1604 / 29:1616) */
+.aa-certrow { font-family: var(--font-sans); box-sizing: border-box; display: flex; flex-direction: column; gap: var(--space-s);
+  width: 100%; padding: var(--space-s); background: var(--color-surface-primary-container); border: 0; border-bottom: 1px solid var(--color-border-strong);
+  text-align: left; color: var(--color-text-default); font-size: 14px; line-height: 1.4; }
+.aa-certrow__name { font-weight: 700; color: var(--color-text-default); overflow-wrap: anywhere; }
+.aa-certrow__meta { display: flex; align-items: center; gap: var(--space-s); }
+.aa-certrow__cert { flex: 1 1 0; min-width: 0; color: var(--color-text-muted); overflow-wrap: anywhere; }
+.aa-certrow--interactive { cursor: pointer; font: inherit; font-family: var(--font-sans); font-size: 14px; }
+.aa-certrow--interactive:hover { background: var(--color-surface-primary); }
+.aa-certrow--interactive:active { background: var(--color-surface-selected); }
+.aa-certrow--interactive:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+
+/* ===== parts: DeviceCard */
+/* DeviceCard — Figma: CardKtimatologio (20:1647) */
+.aa-device { font-family: var(--font-sans); box-sizing: border-box; width: 540px; max-width: 100%; color: var(--color-text-default);
+  display: flex; flex-direction: column; align-items: center; gap: var(--space-m); padding: var(--space-m) var(--space-l);
+  background: var(--color-surface-primary-container); border: 1px solid var(--color-border-strong); border-radius: var(--radius-m);
+  box-shadow: var(--shadow-40); }
+.aa-device__head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-s); width: 100%;
+  padding-bottom: var(--space-s); border-bottom: 1px solid var(--color-border-strong); }
+.aa-device__num { box-sizing: border-box; flex: none; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--color-accent-secondary); border-radius: var(--radius-full); font-size: 16px; line-height: 1; color: var(--color-text-muted); }
+.aa-device__name, .aa-device__title { font-size: 16px; line-height: 1.4; font-weight: 700; text-align: center; }
+.aa-device__body { display: flex; flex-direction: column; align-items: center; gap: var(--space-l); width: 100%; }
+.aa-device__metrics { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-m); width: 100%; }
+.aa-device__metric { display: flex; align-items: center; gap: var(--space-m); }
+.aa-device__data { display: inline-flex; gap: var(--space-s); font-size: 14px; line-height: 1.4; white-space: nowrap; }
+.aa-device__pct { display: inline-flex; align-items: center; gap: var(--space-s); }
+.aa-device__pct-text { font-size: 20px; line-height: 1.2; color: var(--color-text-muted); }
+.aa-device__donut { display: block; flex: none; }
+.aa-device__donut-track { stroke: var(--color-border-strong); }
+.aa-device__donut-fill { stroke: var(--color-accent-primary); }
+.aa-device__donut--fifth .aa-device__donut-fill { stroke: var(--color-accent-indigo); }
+.aa-device__donut--tertiary .aa-device__donut-fill { stroke: var(--color-accent-tertiary); }
+.aa-device__donut--warning .aa-device__donut-fill { stroke: var(--color-accent-warning); }
+.aa-device__donut--error .aa-device__donut-fill { stroke: var(--color-accent-error); }
+.aa-device__extract { font-family: var(--font-sans); display: inline-flex; align-items: center; gap: var(--space-s); min-height: 40px;
+  padding: var(--space-s) var(--space-m); background: var(--color-action-neutral-subtle-bg-default); color: var(--color-text-on-light); border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-s); font-size: 14px; line-height: 1.4; font-weight: 700; cursor: pointer; }
+.aa-device__extract:hover { background: var(--color-action-neutral-subtle-bg-hover); }
+.aa-device__extract:active { background: var(--color-action-neutral-subtle-bg-active); }
+.aa-device__extract:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: 2px; }
+.aa-device__extract:disabled { background: var(--color-button-disabled-bg); color: var(--color-button-disabled-text); cursor: not-allowed; }
+.aa-device__slider { display: flex; align-items: center; gap: var(--space-m); width: 356px; max-width: 100%; }
+.aa-device__range { -webkit-appearance: none; appearance: none; flex: 1 1 auto; min-width: 0; height: 24px; margin: var(--space-s) 0; background: transparent; cursor: pointer; }
+.aa-device__range::-webkit-slider-runnable-track { height: 3px; border-radius: var(--radius-full);
+  background: linear-gradient(to right, var(--color-control-rail-fill-secondary) 0 var(--aa-fill, 0%), var(--color-control-rail) var(--aa-fill, 0%) 100%); }
+.aa-device__range::-moz-range-track { height: 3px; border-radius: var(--radius-full); background: var(--color-control-rail); }
+.aa-device__range::-moz-range-progress { height: 3px; background: var(--color-control-rail-fill-secondary); }
+.aa-device__range::-webkit-slider-thumb { -webkit-appearance: none; box-sizing: border-box; width: 24px; height: 24px; margin-top: -10.5px;
+  border-radius: var(--radius-full); background: var(--color-control-knob-default); border: 2px solid var(--color-control-thumb-secondary); }
+.aa-device__range::-moz-range-thumb { box-sizing: border-box; width: 24px; height: 24px; border-radius: var(--radius-full); background: var(--color-control-knob-default); border: 2px solid var(--color-control-thumb-secondary); }
+.aa-device__range:hover::-webkit-slider-thumb { border-color: var(--color-action-secondary-bg-hover); }
+.aa-device__range:focus-visible { outline: none; }
+.aa-device__range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 2px var(--color-border-focus); }
+.aa-device__range:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 2px var(--color-border-focus); }
+.aa-device__value { min-width: 20px; font-size: 16px; line-height: 1.4; text-align: center; }
+
+/* ===== parts: MonthCalendar */
+/* MonthCalendar — Figma: Calendar section 145:749, frames 20:2167 (full) and 20:1837 (compact) */
+.aa-cal { font-family: var(--font-sans); color: var(--color-text-default); background: var(--color-surface-primary-container); box-sizing: border-box; width: 100%; }
+.aa-cal--compact { max-width: 316px; }
+.aa-cal__header { display: flex; align-items: center; justify-content: space-between; gap: var(--space-s);
+  padding: var(--space-s); min-height: 56px; box-sizing: border-box; background: var(--color-accent-primary); color: var(--color-text-on-light); }
+.aa-cal__title { margin: 0; flex: 1 1 auto; text-align: center; font-size: 20px; line-height: 1.2; font-weight: 700; }
+.aa-cal__nav, .aa-cal__nav-spacer { flex: none; width: 40px; height: 40px; }
+.aa-cal__nav { display: inline-flex; align-items: center; justify-content: center; padding: 0; border: 0; border-radius: var(--radius-s);
+  background: transparent; color: inherit; cursor: pointer; }
+.aa-cal__nav:hover { background: var(--color-accent-primary-hover); color: var(--color-text-on-dark); }
+.aa-cal__nav:active { background: var(--color-action-primary-bg-active); color: var(--color-text-on-light); }
+.aa-cal__nav:focus-visible { outline: 2px solid var(--color-text-on-light); outline-offset: -2px; }
+.aa-cal__grid { display: flex; flex-direction: column; gap: var(--space-s); }
+.aa-cal__row { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: var(--space-s); }
+.aa-cal__row--head { gap: var(--space-s); }
+.aa-cal__weekday { padding: var(--space-s); text-align: center; font-size: 14px; line-height: 1.4; font-weight: 700; color: var(--color-text-placeholder);
+  border-bottom: 2px solid var(--color-border-strong); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.aa-cal__slot { display: flex; min-width: 0; }
+.aa-cal__cell { box-sizing: border-box; min-width: 0; width: 100%; display: flex; flex-direction: column; align-items: center;
+  padding: var(--space-s); border: 0; border-bottom: 1px solid var(--color-border-strong); background: var(--color-surface-primary-container); color: var(--color-text-default); font-family: var(--font-sans); text-align: center; }
+.aa-cal__cell.is-weekend { background: var(--color-surface-primary); }
+.aa-cal__cell--btn { cursor: pointer; }
+.aa-cal__cell--btn:hover { background: var(--color-surface-secondary); }
+.aa-cal__cell--btn:active { background: var(--color-surface-accent); }
+.aa-cal__cell--btn:focus-visible { outline: 2px solid var(--color-border-focus); outline-offset: -2px; }
+.aa-cal__date { font-weight: 700; }
+.aa-cal__cell.is-outside .aa-cal__date { color: var(--color-text-placeholder); }
+/* full month */
+.aa-cal--full .aa-cal__cell { height: 108px; justify-content: flex-start; gap: var(--space-xs); }
+.aa-cal--full .aa-cal__date { font-size: 20px; line-height: 1.2; }
+.aa-cal__events { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; width: 100%; min-height: 0; }
+.aa-cal__event { font-size: 12px; line-height: 1.4; color: var(--color-text-subtle); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.aa-cal__cell.is-outside .aa-cal__event { color: var(--color-text-placeholder); }
+.aa-cal__more { flex: none; width: 100%; padding: 2px 0; border: 0; background: var(--color-surface-highlight); color: var(--color-text-on-light);
+  font-family: var(--font-sans); font-size: 10px; line-height: 1.4; text-align: center; }
+button.aa-cal__more { cursor: pointer; }
+button.aa-cal__more:hover { background: var(--color-accent-gold); }
+/* compact picker */
+.aa-cal--compact .aa-cal__weekday { height: 36px; box-sizing: border-box; color: var(--color-text-muted); }
+.aa-cal--compact .aa-cal__cell { height: 30px; justify-content: center; padding: var(--space-xs); }
+.aa-cal--compact .aa-cal__date { font-size: 12px; line-height: 1.4; font-weight: 400; }
+.aa-cal--compact .aa-cal__cell.is-selected { background: var(--color-surface-secondary-container); }
+.aa-cal--compact .aa-cal__cell.is-selected .aa-cal__date { color: var(--color-text-on-dark); font-weight: 700; }
+.aa-cal--compact .aa-cal__cell--btn.is-selected:hover { background: var(--color-surface-secondary-container-hover); }
+.aa-cal--full .aa-cal__cell.is-selected { box-shadow: inset 0 -2px 0 var(--color-border-accent); }

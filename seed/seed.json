@@ -1,0 +1,3343 @@
+{
+ "clients": {
+  "c_dixons": {
+   "name": "DIXONS"
+  },
+  "c_ab": {
+   "name": "AB"
+  },
+  "c_wattvolt": {
+   "name": "WATT & VOLT"
+  },
+  "c_praktiker": {
+   "name": "Praktiker"
+  },
+  "c_volton": {
+   "name": "VOLTON"
+  },
+  "c_zisimatos": {
+   "name": "Zisimatos Management"
+  },
+  "c_fysiko": {
+   "name": "ΦΥΣΙΚΟ ΑΕΡΙΟ"
+  },
+  "c_ete": {
+   "name": "ΕΤΕ"
+  },
+  "c_alpha": {
+   "name": "ALPHA BANK"
+  },
+  "c_nexi": {
+   "name": "NEXI"
+  }
+ },
+ "projects": {
+  "p_dx_bo": {
+   "clientId": "c_dixons",
+   "name": "Back Office",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "6120",
+   "rate": "32",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_dx_cs": {
+   "clientId": "c_dixons",
+   "name": "Εξυπηρέτηση Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "2902.5",
+   "rate": "37.5",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_dx_ex": {
+   "clientId": "c_dixons",
+   "name": "Εξοικονομώ",
+   "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "9800",
+   "rate": "37.5",
+   "workplace": "ΥΒΡΙΔΙΚΟ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_dx_col": {
+   "clientId": "c_dixons",
+   "name": "Collection",
+   "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "2902.5",
+   "rate": "37.5",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Λ. Κηφισίας 124, Μαρούσι, 151 25"
+  },
+  "p_dx_ts": {
+   "clientId": "c_dixons",
+   "name": "Total Support",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "2902.5",
+   "rate": "32",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Λ. Κηφισίας 124, Μαρούσι, 151 25"
+  },
+  "p_ab_cc": {
+   "clientId": "c_ab",
+   "name": "ΑΒ CC",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "2902.5",
+   "rate": "28.5",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_ab_cs": {
+   "clientId": "c_ab",
+   "name": "Customer Support",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "9800",
+   "rate": "37.5",
+   "workplace": "ΥΒΡΙΔΙΚΟ",
+   "location": "Λ. Κηφισίας 124, Μαρούσι, 151 25"
+  },
+  "p_wv_cs": {
+   "clientId": "c_wattvolt",
+   "name": "Εξυπηρέτηση Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "2902.5",
+   "rate": "32",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_pk_cc": {
+   "clientId": "c_praktiker",
+   "name": "Contact Center",
+   "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "6120",
+   "rate": "40",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_vo_sales": {
+   "clientId": "c_volton",
+   "name": "Πωλήσεις",
+   "supervisor": "ΛΑΒΔΑΣ / ΠΑΥΛΑΚΗΣ / ΠΕΤΡΟΠΟΥΛΟΥ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "9800",
+   "rate": "35",
+   "workplace": "ΥΒΡΙΔΙΚΟ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_zm_bo": {
+   "clientId": "c_zisimatos",
+   "name": "Back Office",
+   "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "2902.5",
+   "rate": "28.5",
+   "workplace": "ΥΒΡΙΔΙΚΟ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_fa_cc": {
+   "clientId": "c_fysiko",
+   "name": "Εξυπηρέτηση Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "6120",
+   "rate": "37.5",
+   "workplace": "ΥΒΡΙΔΙΚΟ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_ete_bo": {
+   "clientId": "c_ete",
+   "name": "NBG BO",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "9800",
+   "rate": "37.5",
+   "workplace": "ΥΒΡΙΔΙΚΟ",
+   "location": "Αναξαγόρα 63 Ταύρος, 177 78"
+  },
+  "p_alpha_bo": {
+   "clientId": "c_alpha",
+   "name": "ALPHA BANK BO",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "3400",
+   "rate": "28.5",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Λ. Κηφισίας 124, Μαρούσι, 151 25"
+  },
+  "p_nexi_bo": {
+   "clientId": "c_nexi",
+   "name": "NEXI BACK OFFICE",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "workdays": "22",
+   "weekendDays": "0",
+   "billing": "Ανά ώρα",
+   "budgetPlan": "1935/fte",
+   "budget": "3400",
+   "rate": "28.5",
+   "workplace": "ΕΝΤΟΣ",
+   "location": "Λ. Κηφισίας 124, Μαρούσι, 151 25"
+  }
+ },
+ "employees": {
+  "e_001": {
+   "code": "POW00482",
+   "last": "ROSENBERG",
+   "first": "CHRISTINA",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "christina.rosenberg@ambience.gr",
+   "phone": "6980490681",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_002": {
+   "code": "POW00663",
+   "last": "ΑΛΑΤΕΡΟΥ",
+   "first": "ΖΑΦΕΙΡΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "13-21",
+   "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "zafeiria.alateroy@ambience.gr",
+   "phone": "6978710461",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_003": {
+   "code": "411",
+   "last": "ΑΛΕΒΙΖΟΣ",
+   "first": "ΓΕΩΡΓΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2024-05-06",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "georgios.alevizos@ambience.gr",
+   "phone": "6999686414",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 6
+    },
+    {
+     "projectId": "p_ab_cc",
+     "hours": 2
+    }
+   ]
+  },
+  "e_004": {
+   "code": "219",
+   "last": "ΑΛΤΟΓΛΟΥ",
+   "first": "ΓΕΩΡΓΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Προϊστάμενος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "georgios.altogloy@ambience.gr",
+   "phone": "6987832216",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_005": {
+   "code": "POW00617",
+   "last": "ΑΝΔΡΙΟΠΟΥΛΟΥ",
+   "first": "ΑΓΓΕΛΙΚΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "10-18",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "aggeliki.andriopoyloy@ambience.gr",
+   "phone": "6951554798",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 4
+    },
+    {
+     "projectId": "p_dx_ts",
+     "hours": 4
+    }
+   ]
+  },
+  "e_006": {
+   "code": "POW00612",
+   "last": "ΑΝΤΩΝΑΚΟΠΟΥΛΟΥ",
+   "first": "ΓΕΩΡΓΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "georgia.antonakopoyloy@ambience.gr",
+   "phone": "6957709585",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_007": {
+   "code": "POW00495",
+   "last": "ΑΝΤΩΝΙΟΥ",
+   "first": "ΑΝΔΡΙΑΝΝΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "08-16",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "andrianna.antonioy@ambience.gr",
+   "phone": "6963404922",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_008": {
+   "code": "442",
+   "last": "ΑΡΓΥΡΙΑΔΗ",
+   "first": "ΗΛΙΑΝΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "13-21",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "iliana.argyriadi@ambience.gr",
+   "phone": "6967783637",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_009": {
+   "code": "POW00545",
+   "last": "ΑΥΓΟΥΣΤΗΣ",
+   "first": "ΙΩΑΝΝΗΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "2026-10-16",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "ioannis.aygoystis@ambience.gr",
+   "phone": "6921138017",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_010": {
+   "code": "POW00597",
+   "last": "ΑΧΜΕΤΗ",
+   "first": "ΑΓΓΕΛΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2026-10-05",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "aggela.achmeti@ambience.gr",
+   "phone": "6945265254",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_dx_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_011": {
+   "code": "POW00511",
+   "last": "ΧΕΙΛΑΚΗ",
+   "first": "ΕΜΜΑΝΟΥΕΛΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "13-21",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "emmanoyela.cheilaki@ambience.gr",
+   "phone": "6926843185",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_dx_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_012": {
+   "code": "POW00514",
+   "last": "ΤΑΜΒΑΚΙΔΟΥ",
+   "first": "ΜΑΡΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Μαρούσι",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "13-21",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2024-05-06",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "maria.tamvakidoy@ambience.gr",
+   "phone": "6963550032",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_bo",
+     "hours": 5
+    },
+    {
+     "projectId": "p_dx_cs",
+     "hours": 3
+    }
+   ]
+  },
+  "e_013": {
+   "code": "POW00512",
+   "last": "ΣΙΚΟΛΑ",
+   "first": "ΒΑΣΙΛΙΚΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "vasiliki.sikola@ambience.gr",
+   "phone": "6938019720",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_014": {
+   "code": "POW00510",
+   "last": "ΠΕΤΡΟΥΤΣΟΣ",
+   "first": "ΑΝΤΩΝΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "antonios.petroytsos@ambience.gr",
+   "phone": "6982023741",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_dx_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_015": {
+   "code": "POW00513",
+   "last": "ΚΕΡΑΝΟΠΟΥΛΟΥ",
+   "first": "ΣΤΥΛΙΑΝΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "styliani.keranopoyloy@ambience.gr",
+   "phone": "6929938108",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_dx_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_016": {
+   "code": "POW00530",
+   "last": "ΤΡΕΒΟΓΚΑ",
+   "first": "ΑΝΑΣΤΑΣΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "anastasia.trevogka@ambience.gr",
+   "phone": "6972544046",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_ts",
+     "hours": 8
+    }
+   ]
+  },
+  "e_017": {
+   "code": "POW00542",
+   "last": "ΤΑΚΑΝΙΚΟΥ",
+   "first": "ΕΥΔΟΞΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "eydoxia.takanikoy@ambience.gr",
+   "phone": "6974239549",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_dx_ts",
+     "hours": 8
+    }
+   ]
+  },
+  "e_018": {
+   "code": "POW00692",
+   "last": "ΙΑΤΡΟΥ",
+   "first": "ΕΥΑΓΓΕΛΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "eyaggelia.iatroy@ambience.gr",
+   "phone": "6980881649",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_dx_ts",
+     "hours": 8
+    }
+   ]
+  },
+  "e_019": {
+   "code": "POW00519",
+   "last": "ΚΥΡΙΑΚΟΥΛΑΚΟΥ",
+   "first": "ΜΑΡΚΕΛΛΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "13-21",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "markella.kyriakoylakoy@ambience.gr",
+   "phone": "6957740731",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_dx_ts",
+     "hours": 8
+    }
+   ]
+  },
+  "e_020": {
+   "code": "311",
+   "last": "ΠΑΝΑΓΙΩΤΑΚΗΣ",
+   "first": "ΜΙΧΑΛΗΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "michalis.panagiotakis@ambience.gr",
+   "phone": "6942130069",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_ts",
+     "hours": 4
+    },
+    {
+     "projectId": "p_dx_cs",
+     "hours": 4
+    }
+   ]
+  },
+  "e_021": {
+   "code": "399",
+   "last": "ΣΙΤΑΡΙΔΗ",
+   "first": "ΓΑΛΑΤΕΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "galateia.sitaridi@ambience.gr",
+   "phone": "6973382988",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_ab_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_022": {
+   "code": "313",
+   "last": "ΠΑΠΑΙΩΑΝΝΟΥ",
+   "first": "ΙΩΑΝΝΗΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "ioannis.papaioannoy@ambience.gr",
+   "phone": "6920809644",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_ab_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_023": {
+   "code": "438",
+   "last": "ΣΤΙΒΑΧΤΗΣ",
+   "first": "ΓΕΩΡΓΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2024-05-06",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "georgios.stivachtis@ambience.gr",
+   "phone": "6974353833",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_ab_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_024": {
+   "code": "469",
+   "last": "ΠΑΝΑΓΙΩΤΑΡΑΣ",
+   "first": "ΧΑΡΑΛΑΜΠΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "10-18",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "charalampos.panagiotaras@ambience.gr",
+   "phone": "6933960779",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_ab_cc",
+     "hours": 6
+    },
+    {
+     "projectId": "p_alpha_bo",
+     "hours": 2
+    }
+   ]
+  },
+  "e_025": {
+   "code": "474",
+   "last": "ΠΟΡΦΥΡΗ",
+   "first": "ΕΥΑΓΓΕΛΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    false,
+    true,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "eyaggelia.porfyri@ambience.gr",
+   "phone": "6932817504",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_ab_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_026": {
+   "code": "POW00524",
+   "last": "ΔΙΩΤΗ",
+   "first": "ΒΑΣΙΛΙΚΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "vasiliki.dioti@ambience.gr",
+   "phone": "6998217056",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_ab_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_027": {
+   "code": "POW00610",
+   "last": "ΣΤΑΜΑΤΟΥΚΟΣ",
+   "first": "ΒΑΣΙΛΕΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "vasileios.stamatoykos@ambience.gr",
+   "phone": "6980676511",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_ab_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_028": {
+   "code": "POW00615",
+   "last": "ΨΥΛΛΙΝΑΚΗΣ",
+   "first": "ΕΜΜΑΝΟΥΗΛ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "emmanoyil.psyllinakis@ambience.gr",
+   "phone": "6938558820",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_ab_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_029": {
+   "code": "POW00660",
+   "last": "ΜΑΡΙΝΟΣ",
+   "first": "ΕΥΣΤΡΑΤΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "eystratios.marinos@ambience.gr",
+   "phone": "6927592411",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_ab_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_030": {
+   "code": "POW00639",
+   "last": "ΝΙΚΛΑΝ",
+   "first": "ΒΑΣΙΛΕΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Μαρούσι",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "13-21",
+   "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "vasileios.niklan@ambience.gr",
+   "phone": "6977330181",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_alpha_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_031": {
+   "code": "POW00669",
+   "last": "ΠΑΠΠΑ",
+   "first": "ΚΩΝΣΤΑΝΤΙΝΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "konstantina.pappa@ambience.gr",
+   "phone": "6930106149",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_alpha_bo",
+     "hours": 4
+    },
+    {
+     "projectId": "p_nexi_bo",
+     "hours": 4
+    }
+   ]
+  },
+  "e_032": {
+   "code": "POW00671",
+   "last": "ΜΟΥΖΑΚΗΣ",
+   "first": "ΔΗΜΗΤΡΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Μαρούσι",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "dimitrios.moyzakis@ambience.gr",
+   "phone": "6953752583",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_alpha_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_033": {
+   "code": "POW00680",
+   "last": "ΣΤΑΜΙΡΗΣ",
+   "first": "ΓΕΩΡΓΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "georgios.stamiris@ambience.gr",
+   "phone": "6915663839",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_alpha_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_034": {
+   "code": "POW00506",
+   "last": "ΚΟΝΤΑΞΗ",
+   "first": "ΔΑΝΑΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2024-05-06",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "danai.kontaxi@ambience.gr",
+   "phone": "6992212100",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_ete_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_035": {
+   "code": "POW00665",
+   "last": "ΓΚΙΝΗ",
+   "first": "ΜΑΓΔΑΛΗΝΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Μαρούσι",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "magdalini.gkini@ambience.gr",
+   "phone": "6980224010",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_ete_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_036": {
+   "code": "POW00683",
+   "last": "ΦΑΣΟΥΛΑΣ",
+   "first": "ΣΩΤΗΡΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "sotirios.fasoylas@ambience.gr",
+   "phone": "6926323822",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_ete_bo",
+     "hours": 6
+    },
+    {
+     "projectId": "p_wv_cs",
+     "hours": 2
+    }
+   ]
+  },
+  "e_037": {
+   "code": "POW00685",
+   "last": "ΧΡΟΝΟΠΟΥΛΟΣ",
+   "first": "ΑΛΕΞΑΝΔΡΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Μαρούσι",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΔΡΑΚΟΥ ΔΗΜΗΤΡΑ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2024-05-06",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "alexandros.chronopoylos@ambience.gr",
+   "phone": "6938546741",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_ete_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_038": {
+   "code": "POW00687",
+   "last": "ΚΑΛΤΣΑ",
+   "first": "ΣΠΥΡΙΔΟΥΛΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "08-16",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "spyridoyla.kaltsa@ambience.gr",
+   "phone": "6928422000",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_nexi_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_039": {
+   "code": "POW00688",
+   "last": "ΚΙΤΖΟΓΛΟΥ",
+   "first": "ΕΥΦΡΟΣΥΝΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2024-05-06",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "eyfrosyni.kitzogloy@ambience.gr",
+   "phone": "6999635023",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_nexi_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_040": {
+   "code": "POW00689",
+   "last": "ΒΑΡΕΛΤΖΗΣ",
+   "first": "ΔΗΜΗΤΡΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Μαρούσι",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "dimitrios.vareltzis@ambience.gr",
+   "phone": "6936272404",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_nexi_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_041": {
+   "code": "POW00686",
+   "last": "ΜΥΛΩΝΑΚΗΣ",
+   "first": "ΙΩΑΝΝΗΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "ioannis.mylonakis@ambience.gr",
+   "phone": "6969117285",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_wv_cs",
+     "hours": 5
+    },
+    {
+     "projectId": "p_dx_col",
+     "hours": 3
+    }
+   ]
+  },
+  "e_042": {
+   "code": "POW00690",
+   "last": "ΜΠΑΚΑΣ",
+   "first": "ΔΗΜΗΤΡΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "dimitrios.mpakas@ambience.gr",
+   "phone": "6925146464",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_wv_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_043": {
+   "code": "POW00618",
+   "last": "ΜΑΝΟΥΣΚΟΣ",
+   "first": "ΙΩΑΝΝΗΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "ioannis.manoyskos@ambience.gr",
+   "phone": "6966673996",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_wv_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_044": {
+   "code": "345",
+   "last": "ΣΤΑΥΡΟΠΟΥΛΟΥ",
+   "first": "ΔΗΜΗΤΡΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    false,
+    false,
+    true,
+    true,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "dimitra.stayropoyloy@ambience.gr",
+   "phone": "6947455108",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_wv_cs",
+     "hours": 8
+    }
+   ]
+  },
+  "e_045": {
+   "code": "POW00651",
+   "last": "ΜΟΝΙΟΥ",
+   "first": "ΝΙΚΟΛΕΤΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "nikoleta.monioy@ambience.gr",
+   "phone": "6944970682",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_pk_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_046": {
+   "code": "POW00456",
+   "last": "ΓΚΙΝΗΣ",
+   "first": "ΠΑΝΑΓΙΩΤΗΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "panagiotis.gkinis@ambience.gr",
+   "phone": "6911549722",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_pk_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_047": {
+   "code": "POW00576",
+   "last": "ΤΣΑΛΤΑΣ",
+   "first": "ΝΙΚΟΛΑΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ",
+   "schedule": "13-21",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "nikolaos.tsaltas@ambience.gr",
+   "phone": "6980721337",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_pk_cc",
+     "hours": 4
+    },
+    {
+     "projectId": "p_fa_cc",
+     "hours": 4
+    }
+   ]
+  },
+  "e_048": {
+   "code": "POW00536",
+   "last": "ΔΗΜΗΤΡΟΠΟΥΛΟΥ",
+   "first": "ΔΙΟΝΥΣΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Πωλήσεων",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Πωλήσεων",
+   "supervisor": "ΛΑΒΔΑΣ / ΠΑΥΛΑΚΗΣ / ΠΕΤΡΟΠΟΥΛΟΥ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "dionysia.dimitropoyloy@ambience.gr",
+   "phone": "6951874911",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_vo_sales",
+     "hours": 8
+    }
+   ]
+  },
+  "e_049": {
+   "code": "POW00538",
+   "last": "ΜΑΡΑΓΚΟΥΔΑΚΗΣ",
+   "first": "ΓΕΩΡΓΙΟΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Πωλήσεων",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Πωλήσεων",
+   "supervisor": "ΛΑΒΔΑΣ / ΠΑΥΛΑΚΗΣ / ΠΕΤΡΟΠΟΥΛΟΥ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "georgios.maragkoydakis@ambience.gr",
+   "phone": "6946308897",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_vo_sales",
+     "hours": 8
+    }
+   ]
+  },
+  "e_050": {
+   "code": "POW00550",
+   "last": "ΣΟΥΤΑ",
+   "first": "ΕΦΡΑΙΜΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Πωλήσεων",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Πωλήσεων",
+   "supervisor": "ΛΑΒΔΑΣ / ΠΑΥΛΑΚΗΣ / ΠΕΤΡΟΠΟΥΛΟΥ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "efraimia.soyta@ambience.gr",
+   "phone": "6979019441",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_vo_sales",
+     "hours": 8
+    }
+   ]
+  },
+  "e_051": {
+   "code": "POW00581",
+   "last": "ΓΟΥΛΗ",
+   "first": "ΣΟΦΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Είσπραξης Οφειλών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ",
+   "schedule": "10-18",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2024-05-06",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "sofia.goyli@ambience.gr",
+   "phone": "6978006237",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_dx_col",
+     "hours": 8
+    }
+   ]
+  },
+  "e_052": {
+   "code": "POW00582",
+   "last": "ΒΟΓΙΑΤΖΗ",
+   "first": "ΒΑΛΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Είσπραξης Οφειλών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "valia.vogiatzi@ambience.gr",
+   "phone": "6956647663",
+   "location": "Ταύρος, 177 78",
+   "assignments": [
+    {
+     "projectId": "p_dx_col",
+     "hours": 6
+    },
+    {
+     "projectId": "p_dx_cs",
+     "hours": 2
+    }
+   ]
+  },
+  "e_053": {
+   "code": "POW00633",
+   "last": "ΓΡΙΝΤΖΟΥ",
+   "first": "ΔΑΝΑΗ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Είσπραξης Οφειλών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "danai.grintzoy@ambience.gr",
+   "phone": "6999285347",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_col",
+     "hours": 8
+    }
+   ]
+  },
+  "e_054": {
+   "code": "POW00644",
+   "last": "ΛΟΥΚΑΣ",
+   "first": "ΗΛΙΑΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "13-21",
+   "remote": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "ilias.loykas@ambience.gr",
+   "phone": "6916071673",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_fa_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_055": {
+   "code": "POW00643",
+   "last": "ΦΩΤΙΑΔΟΥ",
+   "first": "ΜΑΡΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "hireDate": "2023-01-16",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "maria.fotiadoy@ambience.gr",
+   "phone": "6983426945",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_fa_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_056": {
+   "code": "POW00662",
+   "last": "ΚΟΤΣΩΝΑ",
+   "first": "ΓΕΩΡΓΙΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Ταύρος",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+   "schedule": "08-16",
+   "remote": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "georgia.kotsona@ambience.gr",
+   "phone": "6955007604",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_fa_cc",
+     "hours": 8
+    }
+   ]
+  },
+  "e_057": {
+   "code": "POW00418",
+   "last": "ΠΡΟΚΟΠΙΟΥ",
+   "first": "ΘΩΜΑΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Μαρούσι",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2022-08-31",
+   "leaveDate": "",
+   "contractTerm": "Αορίστου χρόνου",
+   "contractHours": "8",
+   "email": "thomas.prokopioy@ambience.gr",
+   "phone": "6922193908",
+   "location": "Νέα Σμύρνη, 171 21",
+   "assignments": [
+    {
+     "projectId": "p_zm_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_058": {
+   "code": "POW00625",
+   "last": "ΜΠΑΜΠΟΥ",
+   "first": "ΠΑΝΑΓΙΩΤΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Υποστηρικτικών Εργασιών",
+   "branch": "Ταύρος",
+   "position": "Υπάλληλος Υποστηρικτικών Εργασιών",
+   "supervisor": "ΠΑΠΑΔΟΓΚΩΝΑΣ ΗΛΙΑΣ",
+   "schedule": "10-18",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "panagiota.mpampoy@ambience.gr",
+   "phone": "6950835013",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_zm_bo",
+     "hours": 8
+    }
+   ]
+  },
+  "e_059": {
+   "code": "POW00666",
+   "last": "ΒΕΝΤΟΥΡΗΣ",
+   "first": "ΘΕΟΦΑΝΗΣ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ",
+   "schedule": "09-17",
+   "remote": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "hireDate": "2019-10-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "theofanis.ventoyris@ambience.gr",
+   "phone": "6953773065",
+   "location": "Μαρούσι, 151 25",
+   "assignments": [
+    {
+     "projectId": "p_dx_ex",
+     "hours": 8
+    }
+   ]
+  },
+  "e_060": {
+   "code": "POW00572",
+   "last": "ΤΣΙΛΟΠΟΥΛΟΥ",
+   "first": "ΝΙΚΟΛΕΤΤΑ",
+   "direction": "Διεύθυνση Υπηρεσιών",
+   "department": "Τμήμα Εξυπηρέτησης Πελατών",
+   "branch": "Μαρούσι",
+   "position": "Εκπρόσωπος Εξυπηρέτησης Πελατών",
+   "supervisor": "ΛΟΥΚΟΠΟΥΛΟΥ ΜΑΡΙΑ",
+   "schedule": "09-17",
+   "remote": [
+    false,
+    true,
+    false,
+    false,
+    true,
+    false
+   ],
+   "hireDate": "2021-03-01",
+   "leaveDate": "",
+   "contractTerm": "Ορισμένου χρόνου",
+   "contractHours": "8",
+   "email": "nikoletta.tsilopoyloy@ambience.gr",
+   "phone": "6977852569",
+   "location": "Καλλιθέα, 176 71",
+   "assignments": [
+    {
+     "projectId": "p_dx_ex",
+     "hours": 8
+    }
+   ]
+  }
+ },
+ "entries": {
+  "e_003_2026-10": {
+   "empId": "e_003",
+   "month": "2026-10",
+   "days": {
+    "27": {
+     "shift": "10-18",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ab_cc"
+    },
+    "12": {
+     "leave": "AS"
+    },
+    "05": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ab_cc"
+    },
+    "13": {
+     "leave": "AS"
+    },
+    "14": {
+     "leave": "AS"
+    }
+   }
+  },
+  "e_004_2026-10": {
+   "empId": "e_004",
+   "month": "2026-10",
+   "days": {
+    "23": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_cs"
+    }
+   }
+  },
+  "e_007_2026-10": {
+   "empId": "e_007",
+   "month": "2026-10",
+   "days": {
+    "12": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_cs"
+    }
+   }
+  },
+  "e_008_2026-10": {
+   "empId": "e_008",
+   "month": "2026-10",
+   "days": {
+    "14": {
+     "leave": "A"
+    },
+    "02": {
+     "shift": "13-21",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_cs"
+    },
+    "09": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_cs"
+    },
+    "13": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_011_2026-10": {
+   "empId": "e_011",
+   "month": "2026-10",
+   "days": {
+    "09": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_012_2026-10": {
+   "empId": "e_012",
+   "month": "2026-10",
+   "days": {
+    "21": {
+     "leave": "A"
+    },
+    "22": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 0,
+     "otReason": "",
+     "alloc": {
+      "p_dx_bo": 2,
+      "p_dx_cs": 6
+     }
+    },
+    "23": {
+     "leave": "A"
+    },
+    "26": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_015_2026-10": {
+   "empId": "e_015",
+   "month": "2026-10",
+   "days": {
+    "07": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_bo"
+    },
+    "23": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_018_2026-10": {
+   "empId": "e_018",
+   "month": "2026-10",
+   "days": {
+    "22": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_ts"
+    }
+   }
+  },
+  "e_020_2026-10": {
+   "empId": "e_020",
+   "month": "2026-10",
+   "days": {
+    "01": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_cs"
+    },
+    "15": {
+     "leave": "A"
+    },
+    "14": {
+     "leave": "A"
+    },
+    "16": {
+     "leave": "A"
+    },
+    "23": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 0,
+     "otReason": "",
+     "alloc": {
+      "p_dx_ts": 2,
+      "p_dx_cs": 6
+     }
+    }
+   }
+  },
+  "e_021_2026-10": {
+   "empId": "e_021",
+   "month": "2026-10",
+   "days": {
+    "27": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_ab_cc"
+    },
+    "05": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_ab_cc"
+    },
+    "14": {
+     "leave": "A"
+    },
+    "15": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_023_2026-10": {
+   "empId": "e_023",
+   "month": "2026-10",
+   "days": {
+    "20": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ab_cc"
+    },
+    "01": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_ab_cc"
+    }
+   }
+  },
+  "e_025_2026-10": {
+   "empId": "e_025",
+   "month": "2026-10",
+   "days": {
+    "22": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_ab_cc"
+    },
+    "02": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_ab_cc"
+    }
+   }
+  },
+  "e_027_2026-10": {
+   "empId": "e_027",
+   "month": "2026-10",
+   "days": {
+    "12": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_ab_cs"
+    },
+    "14": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_ab_cs"
+    },
+    "22": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ab_cs"
+    }
+   }
+  },
+  "e_029_2026-10": {
+   "empId": "e_029",
+   "month": "2026-10",
+   "days": {
+    "09": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_030_2026-10": {
+   "empId": "e_030",
+   "month": "2026-10",
+   "days": {
+    "05": {
+     "shift": "13-21",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_alpha_bo"
+    },
+    "15": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_alpha_bo"
+    },
+    "12": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_alpha_bo"
+    }
+   }
+  },
+  "e_035_2026-10": {
+   "empId": "e_035",
+   "month": "2026-10",
+   "days": {
+    "19": {
+     "shift": "10-18",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_ete_bo"
+    }
+   }
+  },
+  "e_037_2026-10": {
+   "empId": "e_037",
+   "month": "2026-10",
+   "days": {
+    "20": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ete_bo"
+    }
+   }
+  },
+  "e_038_2026-10": {
+   "empId": "e_038",
+   "month": "2026-10",
+   "days": {
+    "21": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_nexi_bo"
+    },
+    "30": {
+     "shift": "08-16",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_nexi_bo"
+    },
+    "12": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_nexi_bo"
+    }
+   }
+  },
+  "e_039_2026-10": {
+   "empId": "e_039",
+   "month": "2026-10",
+   "days": {
+    "12": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_nexi_bo"
+    }
+   }
+  },
+  "e_042_2026-10": {
+   "empId": "e_042",
+   "month": "2026-10",
+   "days": {
+    "14": {
+     "leave": "EA"
+    },
+    "15": {
+     "leave": "EA"
+    }
+   }
+  },
+  "e_044_2026-10": {
+   "empId": "e_044",
+   "month": "2026-10",
+   "days": {
+    "14": {
+     "leave": "AS"
+    },
+    "15": {
+     "leave": "AS"
+    },
+    "16": {
+     "leave": "AS"
+    }
+   }
+  },
+  "e_047_2026-10": {
+   "empId": "e_047",
+   "month": "2026-10",
+   "days": {
+    "01": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_pk_cc"
+    },
+    "22": {
+     "leave": "AS"
+    }
+   }
+  },
+  "e_048_2026-10": {
+   "empId": "e_048",
+   "month": "2026-10",
+   "days": {
+    "20": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_vo_sales"
+    },
+    "16": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_vo_sales"
+    },
+    "12": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_vo_sales"
+    }
+   }
+  },
+  "e_049_2026-10": {
+   "empId": "e_049",
+   "month": "2026-10",
+   "days": {
+    "09": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_vo_sales"
+    },
+    "14": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_vo_sales"
+    },
+    "22": {
+     "leave": "EA"
+    },
+    "23": {
+     "leave": "EA"
+    }
+   }
+  },
+  "e_051_2026-10": {
+   "empId": "e_051",
+   "month": "2026-10",
+   "days": {
+    "07": {
+     "leave": "AS"
+    }
+   }
+  },
+  "e_052_2026-10": {
+   "empId": "e_052",
+   "month": "2026-10",
+   "days": {
+    "07": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_cs"
+    },
+    "20": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_cs"
+    },
+    "02": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_col"
+    }
+   }
+  },
+  "e_053_2026-10": {
+   "empId": "e_053",
+   "month": "2026-10",
+   "days": {
+    "21": {
+     "leave": "A"
+    },
+    "02": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_col"
+    },
+    "14": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_col"
+    },
+    "20": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_055_2026-10": {
+   "empId": "e_055",
+   "month": "2026-10",
+   "days": {
+    "05": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_fa_cc"
+    },
+    "02": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_fa_cc"
+    }
+   }
+  },
+  "e_060_2026-10": {
+   "empId": "e_060",
+   "month": "2026-10",
+   "days": {
+    "09": {
+     "leave": "A"
+    },
+    "12": {
+     "leave": "A"
+    },
+    "13": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_002_2026-11": {
+   "empId": "e_002",
+   "month": "2026-11",
+   "days": {
+    "16": {
+     "leave": "A"
+    },
+    "17": {
+     "leave": "A"
+    },
+    "18": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_003_2026-11": {
+   "empId": "e_003",
+   "month": "2026-11",
+   "days": {
+    "30": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_cs"
+    },
+    "04": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_cs"
+    },
+    "02": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_cs"
+    },
+    "23": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_007_2026-11": {
+   "empId": "e_007",
+   "month": "2026-11",
+   "days": {
+    "27": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_cs"
+    },
+    "04": {
+     "shift": "08-16",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_cs"
+    },
+    "16": {
+     "leave": "A"
+    },
+    "17": {
+     "leave": "A"
+    },
+    "18": {
+     "leave": "A"
+    },
+    "19": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_009_2026-11": {
+   "empId": "e_009",
+   "month": "2026-11",
+   "days": {
+    "10": {
+     "shift": "10-18",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_cs"
+    }
+   }
+  },
+  "e_010_2026-11": {
+   "empId": "e_010",
+   "month": "2026-11",
+   "days": {
+    "19": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_cs"
+    }
+   }
+  },
+  "e_013_2026-11": {
+   "empId": "e_013",
+   "month": "2026-11",
+   "days": {
+    "17": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_bo"
+    },
+    "12": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_bo"
+    },
+    "10": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_017_2026-11": {
+   "empId": "e_017",
+   "month": "2026-11",
+   "days": {
+    "23": {
+     "leave": "A"
+    },
+    "24": {
+     "leave": "A"
+    },
+    "25": {
+     "leave": "A"
+    },
+    "26": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_018_2026-11": {
+   "empId": "e_018",
+   "month": "2026-11",
+   "days": {
+    "13": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_019_2026-11": {
+   "empId": "e_019",
+   "month": "2026-11",
+   "days": {
+    "26": {
+     "shift": "13-21",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_dx_ts"
+    },
+    "10": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_ts"
+    },
+    "04": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_ts"
+    },
+    "16": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_020_2026-11": {
+   "empId": "e_020",
+   "month": "2026-11",
+   "days": {
+    "03": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_ts"
+    },
+    "27": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_cs"
+    }
+   }
+  },
+  "e_021_2026-11": {
+   "empId": "e_021",
+   "month": "2026-11",
+   "days": {
+    "03": {
+     "leave": "AS"
+    },
+    "04": {
+     "leave": "AS"
+    },
+    "05": {
+     "leave": "AS"
+    },
+    "06": {
+     "leave": "AS"
+    }
+   }
+  },
+  "e_022_2026-11": {
+   "empId": "e_022",
+   "month": "2026-11",
+   "days": {
+    "18": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ab_cc"
+    }
+   }
+  },
+  "e_024_2026-11": {
+   "empId": "e_024",
+   "month": "2026-11",
+   "days": {
+    "13": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_alpha_bo"
+    },
+    "19": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_alpha_bo"
+    }
+   }
+  },
+  "e_028_2026-11": {
+   "empId": "e_028",
+   "month": "2026-11",
+   "days": {
+    "19": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_ab_cs"
+    }
+   }
+  },
+  "e_030_2026-11": {
+   "empId": "e_030",
+   "month": "2026-11",
+   "days": {
+    "25": {
+     "shift": "13-21",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_alpha_bo"
+    }
+   }
+  },
+  "e_032_2026-11": {
+   "empId": "e_032",
+   "month": "2026-11",
+   "days": {
+    "13": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_alpha_bo"
+    },
+    "09": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_alpha_bo"
+    },
+    "03": {
+     "leave": "AS"
+    },
+    "04": {
+     "leave": "AS"
+    },
+    "05": {
+     "leave": "AS"
+    }
+   }
+  },
+  "e_033_2026-11": {
+   "empId": "e_033",
+   "month": "2026-11",
+   "days": {
+    "18": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_alpha_bo"
+    },
+    "04": {
+     "shift": "09-17",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_alpha_bo"
+    },
+    "09": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_alpha_bo"
+    }
+   }
+  },
+  "e_035_2026-11": {
+   "empId": "e_035",
+   "month": "2026-11",
+   "days": {
+    "10": {
+     "shift": "10-18",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ete_bo"
+    }
+   }
+  },
+  "e_036_2026-11": {
+   "empId": "e_036",
+   "month": "2026-11",
+   "days": {
+    "20": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_wv_cs"
+    },
+    "25": {
+     "shift": "10-18",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_ete_bo"
+    },
+    "13": {
+     "shift": "10-18",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_ete_bo"
+    },
+    "23": {
+     "leave": "AS"
+    },
+    "24": {
+     "leave": "AS"
+    }
+   }
+  },
+  "e_040_2026-11": {
+   "empId": "e_040",
+   "month": "2026-11",
+   "days": {
+    "19": {
+     "shift": "10-18",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_nexi_bo"
+    },
+    "17": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_nexi_bo"
+    }
+   }
+  },
+  "e_041_2026-11": {
+   "empId": "e_041",
+   "month": "2026-11",
+   "days": {
+    "16": {
+     "shift": "08-16",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_wv_cs"
+    },
+    "24": {
+     "leave": "A"
+    },
+    "04": {
+     "shift": "08-16",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_wv_cs"
+    },
+    "23": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_043_2026-11": {
+   "empId": "e_043",
+   "month": "2026-11",
+   "days": {
+    "27": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_wv_cs"
+    },
+    "12": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_wv_cs"
+    }
+   }
+  },
+  "e_047_2026-11": {
+   "empId": "e_047",
+   "month": "2026-11",
+   "days": {
+    "18": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_pk_cc"
+    },
+    "09": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_pk_cc"
+    }
+   }
+  },
+  "e_054_2026-11": {
+   "empId": "e_054",
+   "month": "2026-11",
+   "days": {
+    "04": {
+     "shift": "13-21",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_fa_cc"
+    },
+    "20": {
+     "shift": "13-21",
+     "remote": false,
+     "ot": 2,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_fa_cc"
+    }
+   }
+  },
+  "e_057_2026-11": {
+   "empId": "e_057",
+   "month": "2026-11",
+   "days": {
+    "11": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Κάλυψη απουσίας",
+     "otProject": "p_zm_bo"
+    }
+   }
+  },
+  "e_058_2026-11": {
+   "empId": "e_058",
+   "month": "2026-11",
+   "days": {
+    "11": {
+     "leave": "EA"
+    }
+   }
+  },
+  "e_059_2026-11": {
+   "empId": "e_059",
+   "month": "2026-11",
+   "days": {
+    "26": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_ex"
+    }
+   }
+  },
+  "e_060_2026-11": {
+   "empId": "e_060",
+   "month": "2026-11",
+   "days": {
+    "13": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 3,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_ex"
+    },
+    "26": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 2,
+     "otReason": "Εκκαθάριση εκκρεμοτήτων",
+     "otProject": "p_dx_ex"
+    },
+    "06": {
+     "shift": "09-17",
+     "remote": true,
+     "ot": 1,
+     "otReason": "Αυξημένος όγκος κλήσεων",
+     "otProject": "p_dx_ex"
+    }
+   }
+  },
+  "e_010_2026-10": {
+   "empId": "e_010",
+   "month": "2026-10",
+   "days": {
+    "16": {
+     "leave": "A"
+    },
+    "19": {
+     "leave": "A"
+    },
+    "20": {
+     "leave": "A"
+    },
+    "21": {
+     "leave": "A"
+    }
+   }
+  },
+  "e_005_2026-10": {
+   "empId": "e_005",
+   "month": "2026-10",
+   "days": {
+    "26": {
+     "shift": "10-18",
+     "remote": false,
+     "ot": 0,
+     "otReason": "",
+     "alloc": {
+      "p_dx_cs": 2,
+      "p_dx_ts": 6
+     }
+    }
+   }
+  }
+ }
+}
