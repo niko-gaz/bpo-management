@@ -1,0 +1,26 @@
+{
+  "days": {
+    "09": {
+      "ot": 2,
+      "otProject": "p_vo_sales",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "14": {
+      "ot": 2,
+      "otProject": "p_vo_sales",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "22": {
+      "leave": "EA"
+    },
+    "23": {
+      "leave": "EA"
+    }
+  },
+  "empId": "e_049",
+  "month": "2026-10"
+}

@@ -1,0 +1,16 @@
+{
+  "days": {
+    "07": {
+      "ot": 2,
+      "otProject": "p_dx_bo",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "09-17"
+    },
+    "23": {
+      "leave": "A"
+    }
+  },
+  "empId": "e_015",
+  "month": "2026-10"
+}

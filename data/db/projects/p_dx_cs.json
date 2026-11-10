@@ -1,0 +1,13 @@
+{
+  "billing": "Ανά ώρα",
+  "budget": "2902.5",
+  "budgetPlan": "1935/fte",
+  "clientId": "c_dixons",
+  "location": "Αναξαγόρα 63 Ταύρος, 177 78",
+  "name": "Εξυπηρέτηση Πελατών",
+  "rate": "37.5",
+  "supervisor": "ΠΙΤΣΙΚΟΥΛΗΣ ΜΙΧΑΛΗΣ",
+  "weekendDays": "0",
+  "workdays": "22",
+  "workplace": "ΕΝΤΟΣ"
+}

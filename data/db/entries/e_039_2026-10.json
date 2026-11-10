@@ -1,0 +1,13 @@
+{
+  "days": {
+    "12": {
+      "ot": 1,
+      "otProject": "p_nexi_bo",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": false,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_039",
+  "month": "2026-10"
+}

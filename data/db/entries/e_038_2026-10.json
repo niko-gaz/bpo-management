@@ -1,0 +1,27 @@
+{
+  "days": {
+    "12": {
+      "ot": 3,
+      "otProject": "p_nexi_bo",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "08-16"
+    },
+    "21": {
+      "ot": 2,
+      "otProject": "p_nexi_bo",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "08-16"
+    },
+    "30": {
+      "ot": 1,
+      "otProject": "p_nexi_bo",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "08-16"
+    }
+  },
+  "empId": "e_038",
+  "month": "2026-10"
+}

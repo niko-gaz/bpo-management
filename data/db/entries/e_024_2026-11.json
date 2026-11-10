@@ -1,0 +1,20 @@
+{
+  "days": {
+    "13": {
+      "ot": 2,
+      "otProject": "p_alpha_bo",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "19": {
+      "ot": 2,
+      "otProject": "p_alpha_bo",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_024",
+  "month": "2026-11"
+}

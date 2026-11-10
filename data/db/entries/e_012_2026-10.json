@@ -1,0 +1,25 @@
+{
+  "days": {
+    "21": {
+      "leave": "A"
+    },
+    "22": {
+      "alloc": {
+        "p_dx_bo": 2,
+        "p_dx_cs": 6
+      },
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "13-21"
+    },
+    "23": {
+      "leave": "A"
+    },
+    "26": {
+      "leave": "A"
+    }
+  },
+  "empId": "e_012",
+  "month": "2026-10"
+}

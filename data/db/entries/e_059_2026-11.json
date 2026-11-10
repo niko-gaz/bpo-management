@@ -1,0 +1,53 @@
+{
+  "days": {
+    "02": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_dx_ex": 5
+      },
+      "remote": true,
+      "shift": "09-17"
+    },
+    "03": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_dx_ex": 5
+      },
+      "remote": false,
+      "shift": "09-17"
+    },
+    "04": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_dx_ex": 5
+      },
+      "remote": false,
+      "shift": "09-17"
+    },
+    "05": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_dx_ex": 5
+      },
+      "remote": false,
+      "shift": "09-17"
+    },
+    "06": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_dx_ex": 5
+      },
+      "remote": false,
+      "shift": "09-17"
+    },
+    "26": {
+      "ot": 1,
+      "otProject": "p_dx_ex",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "09-17"
+    }
+  },
+  "empId": "e_059",
+  "month": "2026-11"
+}

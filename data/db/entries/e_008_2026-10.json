@@ -1,0 +1,26 @@
+{
+  "days": {
+    "02": {
+      "ot": 2,
+      "otProject": "p_dx_cs",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "13-21"
+    },
+    "09": {
+      "ot": 1,
+      "otProject": "p_dx_cs",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "13-21"
+    },
+    "13": {
+      "leave": "A"
+    },
+    "14": {
+      "leave": "A"
+    }
+  },
+  "empId": "e_008",
+  "month": "2026-10"
+}

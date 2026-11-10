@@ -1,0 +1,27 @@
+{
+  "days": {
+    "12": {
+      "ot": 2,
+      "otProject": "p_vo_sales",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "09-17"
+    },
+    "16": {
+      "ot": 3,
+      "otProject": "p_vo_sales",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "09-17"
+    },
+    "20": {
+      "ot": 2,
+      "otProject": "p_vo_sales",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": false,
+      "shift": "09-17"
+    }
+  },
+  "empId": "e_048",
+  "month": "2026-10"
+}

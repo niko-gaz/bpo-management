@@ -1,0 +1,20 @@
+{
+  "days": {
+    "01": {
+      "ot": 1,
+      "otProject": "p_ab_cc",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "09-17"
+    },
+    "20": {
+      "ot": 3,
+      "otProject": "p_ab_cc",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": false,
+      "shift": "09-17"
+    }
+  },
+  "empId": "e_023",
+  "month": "2026-10"
+}

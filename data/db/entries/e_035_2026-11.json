@@ -1,0 +1,13 @@
+{
+  "days": {
+    "10": {
+      "ot": 1,
+      "otProject": "p_ete_bo",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_035",
+  "month": "2026-11"
+}

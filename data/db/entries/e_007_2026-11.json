@@ -1,0 +1,32 @@
+{
+  "days": {
+    "04": {
+      "ot": 1,
+      "otProject": "p_dx_cs",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "08-16"
+    },
+    "16": {
+      "leave": "A"
+    },
+    "17": {
+      "leave": "A"
+    },
+    "18": {
+      "leave": "A"
+    },
+    "19": {
+      "leave": "A"
+    },
+    "27": {
+      "ot": 3,
+      "otProject": "p_dx_cs",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "08-16"
+    }
+  },
+  "empId": "e_007",
+  "month": "2026-11"
+}

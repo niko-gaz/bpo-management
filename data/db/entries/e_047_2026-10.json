@@ -1,0 +1,16 @@
+{
+  "days": {
+    "01": {
+      "ot": 2,
+      "otProject": "p_pk_cc",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "13-21"
+    },
+    "22": {
+      "leave": "AS"
+    }
+  },
+  "empId": "e_047",
+  "month": "2026-10"
+}

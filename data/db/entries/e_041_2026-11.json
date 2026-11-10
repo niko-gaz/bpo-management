@@ -1,0 +1,26 @@
+{
+  "days": {
+    "04": {
+      "ot": 1,
+      "otProject": "p_wv_cs",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "08-16"
+    },
+    "16": {
+      "ot": 3,
+      "otProject": "p_wv_cs",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "08-16"
+    },
+    "23": {
+      "leave": "A"
+    },
+    "24": {
+      "leave": "A"
+    }
+  },
+  "empId": "e_041",
+  "month": "2026-11"
+}

@@ -1,0 +1,24 @@
+{
+  "days": {
+    "06": {
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "09-17"
+    },
+    "07": {
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "09-17"
+    },
+    "08": {
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "09-17"
+    }
+  },
+  "empId": "e_054",
+  "month": "2026-10"
+}

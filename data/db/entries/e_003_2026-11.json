@@ -1,0 +1,30 @@
+{
+  "days": {
+    "02": {
+      "ot": 3,
+      "otProject": "p_dx_cs",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "04": {
+      "ot": 3,
+      "otProject": "p_dx_cs",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "23": {
+      "leave": "A"
+    },
+    "30": {
+      "ot": 1,
+      "otProject": "p_dx_cs",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_003",
+  "month": "2026-11"
+}

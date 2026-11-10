@@ -1,0 +1,45 @@
+{
+  "days": {
+    "03": {
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "05": {
+      "ot": 1,
+      "otProject": "p_ab_cc",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "12": {
+      "leave": "AS"
+    },
+    "13": {
+      "leave": "AS"
+    },
+    "14": {
+      "leave": "AS"
+    },
+    "27": {
+      "ot": 2,
+      "otProject": "p_ab_cc",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "10-18"
+    },
+    "29": {
+      "alloc": {
+        "p_dx_cs": 5,
+        "p_dx_ex": 3
+      },
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_003",
+  "month": "2026-10"
+}

@@ -1,0 +1,38 @@
+{
+  "days": {
+    "26": {
+      "alloc": {
+        "p_ete_bo": 5,
+        "p_fa_cc": 3
+      },
+      "remote": true,
+      "shift": "10-18"
+    },
+    "27": {
+      "alloc": {
+        "p_ete_bo": 5,
+        "p_fa_cc": 3
+      },
+      "remote": false,
+      "shift": "10-18"
+    },
+    "29": {
+      "alloc": {
+        "p_ete_bo": 5,
+        "p_fa_cc": 3
+      },
+      "remote": false,
+      "shift": "10-18"
+    },
+    "30": {
+      "alloc": {
+        "p_ete_bo": 5,
+        "p_fa_cc": 3
+      },
+      "remote": true,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_mvjlc138rnfa",
+  "month": "2026-10"
+}

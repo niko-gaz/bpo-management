@@ -1,0 +1,13 @@
+{
+  "billing": "Ανά ώρα",
+  "budget": "6120",
+  "budgetPlan": "1935/fte",
+  "clientId": "c_fysiko",
+  "location": "Αναξαγόρα 63 Ταύρος, 177 78",
+  "name": "Εξυπηρέτηση Πελατών",
+  "rate": "37.5",
+  "supervisor": "ΣΤΙΒΑΧΤΗΣ ΓΙΩΡΓΟΣ",
+  "weekendDays": "0",
+  "workdays": "22",
+  "workplace": "ΥΒΡΙΔΙΚΟ"
+}

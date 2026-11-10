@@ -1,0 +1,33 @@
+{
+  "days": {
+    "13": {
+      "ot": 3,
+      "otProject": "p_ete_bo",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": true,
+      "shift": "10-18"
+    },
+    "20": {
+      "ot": 2,
+      "otProject": "p_wv_cs",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "23": {
+      "leave": "AS"
+    },
+    "24": {
+      "leave": "AS"
+    },
+    "25": {
+      "ot": 3,
+      "otProject": "p_ete_bo",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_036",
+  "month": "2026-11"
+}

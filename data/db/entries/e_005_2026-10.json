@@ -1,0 +1,22 @@
+{
+  "days": {
+    "07": {
+      "ot": 0,
+      "otReason": "",
+      "remote": true,
+      "shift": "10-18"
+    },
+    "26": {
+      "alloc": {
+        "p_dx_cs": 2,
+        "p_dx_ts": 6
+      },
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_005",
+  "month": "2026-10"
+}

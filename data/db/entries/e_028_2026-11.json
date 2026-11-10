@@ -1,0 +1,13 @@
+{
+  "days": {
+    "19": {
+      "ot": 1,
+      "otProject": "p_ab_cs",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": true,
+      "shift": "09-17"
+    }
+  },
+  "empId": "e_028",
+  "month": "2026-11"
+}

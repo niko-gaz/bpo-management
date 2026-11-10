@@ -1,0 +1,14 @@
+{
+  "days": {
+    "13": {
+      "remote": false,
+      "shift": "10-18"
+    },
+    "15": {
+      "remote": true,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_022",
+  "month": "2026-10"
+}

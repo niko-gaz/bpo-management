@@ -1,0 +1,27 @@
+{
+  "days": {
+    "04": {
+      "ot": 2,
+      "otProject": "p_alpha_bo",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": false,
+      "shift": "09-17"
+    },
+    "09": {
+      "ot": 2,
+      "otProject": "p_alpha_bo",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": true,
+      "shift": "09-17"
+    },
+    "18": {
+      "ot": 2,
+      "otProject": "p_alpha_bo",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": false,
+      "shift": "09-17"
+    }
+  },
+  "empId": "e_033",
+  "month": "2026-11"
+}

@@ -1,0 +1,18 @@
+{
+  "days": {
+    "05": {
+      "ot": 0,
+      "otReason": "",
+      "remote": true,
+      "shift": "08-16"
+    },
+    "06": {
+      "ot": 0,
+      "otReason": "",
+      "remote": true,
+      "shift": "08-16"
+    }
+  },
+  "empId": "e_006",
+  "month": "2026-10"
+}

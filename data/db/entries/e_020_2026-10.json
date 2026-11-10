@@ -1,0 +1,32 @@
+{
+  "days": {
+    "01": {
+      "ot": 3,
+      "otProject": "p_dx_cs",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "08-16"
+    },
+    "14": {
+      "leave": "A"
+    },
+    "15": {
+      "leave": "A"
+    },
+    "16": {
+      "leave": "A"
+    },
+    "23": {
+      "alloc": {
+        "p_dx_cs": 6,
+        "p_dx_ts": 2
+      },
+      "ot": 0,
+      "otReason": "",
+      "remote": false,
+      "shift": "08-16"
+    }
+  },
+  "empId": "e_020",
+  "month": "2026-10"
+}

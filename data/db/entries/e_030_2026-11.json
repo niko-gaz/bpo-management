@@ -1,0 +1,13 @@
+{
+  "days": {
+    "25": {
+      "ot": 3,
+      "otProject": "p_alpha_bo",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": true,
+      "shift": "13-21"
+    }
+  },
+  "empId": "e_030",
+  "month": "2026-11"
+}

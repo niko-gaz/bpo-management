@@ -1,0 +1,60 @@
+{
+  "days": {
+    "02": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_nexi_bo": 5
+      },
+      "remote": false,
+      "shift": "10-18"
+    },
+    "03": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_nexi_bo": 5
+      },
+      "remote": true,
+      "shift": "10-18"
+    },
+    "04": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_nexi_bo": 5
+      },
+      "remote": false,
+      "shift": "10-18"
+    },
+    "05": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_nexi_bo": 5
+      },
+      "remote": false,
+      "shift": "10-18"
+    },
+    "06": {
+      "alloc": {
+        "p_ab_cc": 3,
+        "p_nexi_bo": 5
+      },
+      "remote": false,
+      "shift": "10-18"
+    },
+    "17": {
+      "ot": 1,
+      "otProject": "p_nexi_bo",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "10-18"
+    },
+    "19": {
+      "ot": 3,
+      "otProject": "p_nexi_bo",
+      "otReason": "Εκκαθάριση εκκρεμοτήτων",
+      "remote": true,
+      "shift": "10-18"
+    }
+  },
+  "empId": "e_040",
+  "month": "2026-11"
+}

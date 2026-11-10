@@ -1,0 +1,30 @@
+{
+  "days": {
+    "04": {
+      "ot": 2,
+      "otProject": "p_dx_ts",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "13-21"
+    },
+    "10": {
+      "ot": 1,
+      "otProject": "p_dx_ts",
+      "otReason": "Αυξημένος όγκος κλήσεων",
+      "remote": false,
+      "shift": "13-21"
+    },
+    "16": {
+      "leave": "A"
+    },
+    "26": {
+      "ot": 2,
+      "otProject": "p_dx_ts",
+      "otReason": "Κάλυψη απουσίας",
+      "remote": true,
+      "shift": "13-21"
+    }
+  },
+  "empId": "e_019",
+  "month": "2026-11"
+}

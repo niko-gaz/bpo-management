@@ -1,0 +1,13 @@
+{
+  "billing": "Ανά ώρα",
+  "budget": "9800",
+  "budgetPlan": "1935/fte",
+  "clientId": "c_ab",
+  "location": "Λ. Κηφισίας 124, Μαρούσι, 151 25",
+  "name": "Customer Support",
+  "rate": "37.5",
+  "supervisor": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ ΓΙΩΡΓΟΣ",
+  "weekendDays": "0",
+  "workdays": "22",
+  "workplace": "ΥΒΡΙΔΙΚΟ"
+}
